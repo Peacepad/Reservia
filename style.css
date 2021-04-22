@@ -355,3 +355,113 @@ h1 {
     height: 10px;
     filter: invert(24%) sepia(91%) saturate(3771%) hue-rotate(211deg) brightness(102%) contrast(106%);   
 }
+
+
+/*---------------------Container middle of page----------------*/
+
+#container_middle_of_page {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/*----------------------------Article--------------------------*/
+
+article {
+    display: flex;
+    width: 55%;
+    height: 100%;
+    padding-left: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-right: 30px;
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/*----------disposition des cards----------*/
+
+#container_card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "raleway", sans-serif;
+}
+
+.card {
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px #e0dfdf;
+    padding:5px;
+}
+
+.contenu_card {
+    margin-left: 10px;
+}
+
+/*--diminuer l'espacement entre le titre et le texte--*/
+.card h3 {
+    font-size: 1em;
+    margin-bottom: 2px;
+}
+
+.contenu_card p {
+    margin-top:2px;
+    font-size:0.8em;
+    font-weight: normal;
+    margin-bottom:5px;
+}
+
+/*redimension des images*/
+.image_card img {
+    width: 236px;
+    height: 114px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+/*Etoiles de notation */
+
+.rating {
+    display:flex;
+    flex-direction: row; 
+    align-content: flex-start;
+    justify-items: center;
+}
+
+.blue_stars, .grey_stars {
+    display:flex;
+    flex-direction: row;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 5px;
+}
+
+.blue_stars img {
+    height: 15px;
+    width: 15px;
+    filter: invert(24%) sepia(91%) saturate(3771%) hue-rotate(211deg) brightness(102%) contrast(106%);
+    margin-right: 5px;
+}
+
+.grey_stars img {
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    filter: invert(100%) sepia(1%) saturate(2549%) hue-rotate(214deg) brightness(88%) contrast(94%);
+}
+
+article a {
+    color: black;
+    text-decoration: none;
+}
+
+#view_more:hover {
+    text-decoration: underline;
+}
