@@ -1,11 +1,16 @@
 @font-face {
     font-family: "raleway";
-    src: url(Raleway/static/Raleway-Medium.ttf);
+    src: url(Raleway/static/Raleway-VariableFont-wght.ttf);
 }
 
 @font-face {
     font-family: "raleway-bold";
-    src: url(raleway/static/Raleway-SemiBold.ttf);
+    src: url(raleway/static/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: "raleway-thin";
+    src: url(Raleway/static/Raleway-Thin.ttf);
 }
 
 /*--------------------Général-------------------*/
@@ -36,11 +41,6 @@ header {
     align-items: flex-end;
 }
 
-#main_logo {
-    
-    
-}
-
 #main_logo img {
     height: 45px;
 }
@@ -48,7 +48,8 @@ header {
 nav {
     display: inline-block;
     height: 80px;
-    
+    font-family: "raleway-thin", sans-serif;
+    font-weight: bold;
 }
 
 nav ul {
@@ -59,19 +60,28 @@ nav ul {
     align-items: center;
 }
 
-header li {
+nav li {
     margin-left:60px;
     height: 100%;
     text-align: center;
     padding-top: 30px;
     border-top: 2px solid rgba(0,0,0,0);
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
-header li:hover {
+nav li:hover {
     border-top: #0065FC 2px solid;
 }
 
-header a {
+nav a {
     color: #0065FC;
+    text-decoration: none;
+}
+
+#subscribe_link {
+    font-family: "raleway-bold", sans-serif;
+}
+
+#activities_link {
+    color:black
 }
