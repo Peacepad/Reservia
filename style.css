@@ -1,6 +1,6 @@
 @font-face {
     font-family: "raleway";
-    src: url(Raleway/static/Raleway-VariableFont-wght.ttf);
+    src: url(Raleway/Raleway-VariableFont-wght.ttf);
 }
 
 @font-face {
@@ -84,4 +84,274 @@ nav a {
 
 #activities_link {
     color:black
+}
+
+/*--------------------Container_top_of_page-----------------*/
+
+#container_top_of_page {
+    font-family: "raleway", sans-serif;
+    width: 95%;
+    margin:auto;
+    font-size: 0.9em;
+}
+
+h1 {
+    font-size: 1.3em;
+    margin-bottom: 2px;
+}
+#top_of_page_1 p {
+    margin-top: 2px;
+}
+
+/*----Champ de recherche---*/
+#search_form {
+    display:flex;
+    flex-direction: row;
+    height:30px;
+}
+
+#icon_location {
+    margin-right:0;
+    width: 30px;
+    height: 30px;
+    background-color: #f2f2f2;
+    text-align: center;
+    vertical-align: middle;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-image: url("images/icones/map-marker-alt-solid.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 28%;
+}
+
+#search_input {
+    height: 30px ;
+    border: #f2f2f2 1px solid;
+    margin-right: 0;
+    padding-left:10px;
+    color: black;
+    font-weight: bold;
+    font-family: "raleway", sans-serif;
+}
+
+#search_button {
+    border: none;
+    background-color: #0065FC;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 0.8em;
+    font-weight: bold;
+    font-family: "raleway", sans-serif;
+}
+
+#search_input:focus { /*empêche la bordure lorsqu'on écrit dans le champ de recherche */
+    outline: none;
+}
+
+/*----Les filtres---*/
+
+#top_of_page_4 {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    justify-items: center;
+}
+
+#filters_title {
+    display:flex;
+    align-items: center;
+}
+
+#top_of_page_4 ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
+
+#top_of_page_4 li {
+    margin-left: 25px;
+}
+
+#container_filters_form input {
+    background-color: white;
+    height: 30px;
+    border: #f2f2f2 solid 2px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+/*bouton 1*/
+#button_filters1 {
+    height: 30px;
+    position: relative;
+}
+ 
+#ico_filters1 {
+    background-color: #DEEBFF;
+    height: 30px;
+    width: 30px;
+    position:absolute;
+    left: -6px;
+    border-radius: 100%;
+    display:flex;
+}
+ 
+ 
+#filters input:active { /*quand on clique sur le bouton */
+    border: #0065FC solid 2px;
+    background-color: #DEEBFF;
+}
+ 
+#ico_filters1 img {
+    height: 13px;
+    margin: auto;
+    /*filtre pour rendre l'icone de la bonne couleur*/
+    filter: invert(24%) sepia(40%) saturate(6775%) hue-rotate(211deg) brightness(102%) contrast(102%);
+}
+
+/* bouton 1 avec hover*/
+
+#button_filters1:hover #ico_filters1 {
+    background-color: #0065FC;
+}   
+
+#button_filters1:hover #ico_filters1 img {
+    filter: invert(100%) sepia(40%) saturate(3842%) hue-rotate(177deg) brightness(104%) contrast(102%);
+}
+
+/*bouton2*/
+#button_filters2 {
+    height: 30px;
+    position: relative;
+}
+ 
+#ico_filters2 {
+    background-color: #DEEBFF;
+    height: 30px;
+    width: 30px;
+    position:absolute;
+    left: -6px;
+    border-radius: 100%;
+    color:#0065FC;
+    display:flex;
+}
+ 
+#ico_filters2 img {
+    height: 13px;
+    margin: auto;
+    /*filtre pour rendre l'icone de la bonne couleur*/
+    filter: invert(24%) sepia(40%) saturate(6775%) hue-rotate(211deg) brightness(102%) contrast(102%);
+}
+
+/* bouton 2 avec hover*/
+
+#button_filters2:hover #ico_filters2 {
+    background-color: #0065FC;
+}   
+
+#button_filters2:hover #ico_filters2 img {
+    filter: invert(100%) sepia(40%) saturate(3842%) hue-rotate(177deg) brightness(104%) contrast(102%);
+}
+
+
+/*bouton3*/
+#button_filters3 {
+    height: 30px;
+    position: relative;
+}
+ 
+#ico_filters3 {
+    background-color: #DEEBFF;
+    height: 30px;
+    width: 30px;
+    position:absolute;
+    left: -6px;
+    border-radius: 100%;
+    color:#0065FC;
+    display:flex;
+}
+ 
+#ico_filters3 img {
+    height: 13px;
+    margin: auto;
+    /*filtre pour rendre l'icone de la bonne couleur*/
+    filter: invert(24%) sepia(40%) saturate(6775%) hue-rotate(211deg) brightness(102%) contrast(102%);
+}
+
+/* bouton 3 avec hover*/
+
+#button_filters3:hover #ico_filters3 {
+    background-color: #0065FC;
+}   
+
+#button_filters3:hover #ico_filters3 img {
+    filter: invert(100%) sepia(40%) saturate(3842%) hue-rotate(177deg) brightness(104%) contrast(102%);
+}
+
+/*bouton4*/
+#button_filters4 {
+    height: 30px;
+    position: relative;
+}
+ 
+#ico_filters4 {
+    background-color: #DEEBFF;
+    height: 30px;
+    width: 30px;
+    position:absolute;
+    left: -6px;
+    border-radius: 100%;
+    color:#0065FC;
+    display:flex;
+}
+ 
+#ico_filters4 img {
+    height: 13px;
+    margin: auto;
+    /*filtre pour rendre l'icone de la bonne couleur*/
+    filter: invert(24%) sepia(40%) saturate(6775%) hue-rotate(211deg) brightness(102%) contrast(102%);
+}
+
+/* bouton 4 avec hover*/
+
+#button_filters4:hover #ico_filters4 {
+    background-color: #0065FC;
+}   
+
+#button_filters4:hover #ico_filters4 img {
+    filter: invert(100%) sepia(40%) saturate(3842%) hue-rotate(177deg) brightness(104%) contrast(102%);
+}
+
+
+
+/*Effet quand on clique sur le bouton*/
+
+#top_of_page_4 input:active {
+    border: #0065FC solid 2px;
+    background-color: #DEEBFF;
+}
+
+/*----------top_of_page_5-------------*/
+
+#ico_info {
+    display: block;
+    border-radius: 100%;
+    border: solid 1px #f2f2f2;
+    height: 0.9em;
+    width: 0.9em;
+    text-align: center;
+    line-height: 0.9em;
+    float: left;
+    margin-right:10px;
+}
+
+#ico_info img {
+    height: 10px;
+    filter: invert(24%) sepia(91%) saturate(3771%) hue-rotate(211deg) brightness(102%) contrast(106%);   
 }
