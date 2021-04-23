@@ -505,7 +505,7 @@ aside {
 
 .card_2 {
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
     padding-left: 5px;
     display: flex;
     flex-direction: row;
@@ -541,11 +541,14 @@ aside {
     margin: auto;
     flex-direction: column;
     justify-content: space-between;   
+    font-family: "raleway",sans-serif;
 }
 
-a {
+#container_bottom_of_page a {
     text-decoration: none;
 }
+
+
 
 #container_card_3 {
     display:flex;
@@ -598,4 +601,40 @@ a {
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+}
+
+
+/*--------------------------------------Footer--------------------------*/
+
+footer {
+    background-color: #f2f2f2;
+    margin-top: 40px;
+    font-family: "raleway",sans-serif;
+}
+
+#container_footer {
+    width:95%;
+    margin: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.list_footer
+{
+    margin-right: 190px;
 }
