@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Reservia</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile_style.css" />
+  <link rel="stylesheet" media="screen and (max-width: 1000px)" href="mobile_style.css" />
 
 
 </head>
@@ -18,7 +18,7 @@
         </div>
 
         <!--Menu de navigation-->
-        <nav>
+        <nav id="nav_big_screen">
             <ul>
                 <li><a href="#container_middle_of_page">Hébergements</a></li>
                 <li><a href="#container_bottom_of_page" id="activities_link">Activités</a></li>
@@ -26,7 +26,21 @@
             </ul>
         </nav>
         <!--Fin du menu de navigation-->
+
+
+        <!--Version mobile-->
+        <div id="subscribe"><a href="inscription.html" id="subscribe_header">S'inscrire</a></div>
+
     </header>
+
+    <nav id="nav_mobile">
+      <div id="hebergement_nav_mobile">
+          <a href="#container_middle_of_page" >Hébergements</a>
+      </div>
+      <div id="activites_nav_mobile">
+          <a href="#container_bottom_of_page">Activités</a>
+      <div>
+    </nav>
 
     <section id="container_top_of_page">
 
@@ -252,12 +266,14 @@
         </article>
 
         <aside id="middle_of_page_2">
-            <h2>
-              Les plus populaires
-              <span id="ico_pop">
-                <img src="images/icones/chart-line-solid.svg" alt="" />
-              </span>
-            </h2>
+            <div id="aside_tittle">
+              <h2>
+                Les plus populaires
+                <span id="ico_pop">
+                  <img src="images/icones/chart-line-solid.svg" alt="" />
+                </span>
+              </h2>
+            </div>
 
             <div id="container_card_2">
 
