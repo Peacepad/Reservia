@@ -18,7 +18,8 @@
 body {
     display:flex;
     flex-direction: column;
-    margin: 0;
+    margin: auto;
+    max-width: 1500px;
 }
 
 em {
@@ -396,7 +397,6 @@ article {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    
 }
 
 .card {
@@ -438,6 +438,7 @@ article {
     height: 114px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    object-fit: fill;
 }
 
 
@@ -498,6 +499,7 @@ article a {
 aside {
     display: flex;
     width: 35%;
+    
     flex-direction: column;
     background-color: #f2f2f2;
     padding-left: 30px;
@@ -581,7 +583,7 @@ aside {
 .card_3 {
     display:flex;
     flex-direction: column;
-    width: 320px;
+   
     border-radius: 15px;
     background-color:white;
     box-shadow: 3px 3px 5px #e0dfdf ;
@@ -662,3 +664,87 @@ footer ul {
 {
     margin-right: 190px;
 }
+
+
+
+/*--------------------------- Media queries pour écran plus petit----------------------------------*/
+
+@media screen and (max-width: 1440px) {
+
+
+    .image_card img {
+        
+        height: 114px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        object-fit: cover;
+    }
+
+    #container_card {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .image_card_3 img {
+        height: 200px;
+        width: 320px;
+        object-fit: cover;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .s-image_card_3 img {
+        height: 200px;
+        width: 320px;
+        object-fit: cover;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    #container_card_3 {
+        flex-direction: row;
+        height: 520px;
+    }
+
+    .card_3 {
+        margin-bottom: 15px;
+    }
+
+}
+
+@media screen and (max-width: 1060px) {
+    #container_middle_of_page {
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+        height: auto;
+    }
+
+    article {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 15px;
+        order: 2;
+    }
+
+    aside {
+        order: 1;
+        width:95%;
+        margin:auto;
+        height:600px;
+        margin-bottom: 15px;
+    }
+
+    .card_2 {
+        width: 95%;
+    }
+
+    #container_card_3 {
+        justify-content: space-around;
+        height: auto;
+    }
+
+}
+
