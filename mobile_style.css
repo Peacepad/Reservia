@@ -58,7 +58,7 @@
     }
 
     #hebergement_nav_mobile a {
-        color: C#0065F;
+        color: #0065F;
     }
 
     /*--------------------Container_top_of_page-----------------*/
@@ -299,6 +299,7 @@
         max-height: none;
         margin: auto;
         width: 95%;
+        height: auto;
     }
 
     .image_card_3 img {

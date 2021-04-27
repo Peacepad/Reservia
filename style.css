@@ -102,7 +102,10 @@ header {
 h1 {
     font-size: 1.3em;
     margin-bottom: 2px;
+    font-family: "raleway-bold";
+    font-weight: 300;
 }
+
 #top_of_page_1 p {
     margin-top: 2px;
 }
@@ -131,6 +134,7 @@ h1 {
 
 #search_input {
     height: 30px ;
+    width: 180px;
     border: #f2f2f2 1px solid;
     margin-right: 0;
     padding-left:10px;
@@ -394,6 +398,12 @@ article {
     border-radius: 15px;
     background-color: #f2f2f2;
     font-weight: bold;
+    max-width: 900px;
+}
+
+article h2 {
+    font-family: "raleway-bold";
+    font-weight: 300;
 }
 
 /*----------disposition des cards----------*/
@@ -429,6 +439,8 @@ article {
 .card h3 {
     font-size: 1rem;
     margin-bottom: 2px;
+    font-family: "raleway-bold";
+    font-weight: 300;
 }
 
 .contenu_card p {
@@ -505,12 +517,17 @@ article a {
 aside {
     display: flex;
     width: 30vw;
-    
+    max-width: 600px;
     flex-direction: column;
     background-color: #f2f2f2;
     padding-left: 30px;
     border-radius: 15px;
 
+}
+
+aside h2 {
+    font-family: "raleway-bold";
+    font-weight: 300;
 }
 
 #container_card_2 {
@@ -556,6 +573,10 @@ aside {
     color: black
 }
 
+.contenu_card_2 h3 {
+        font-family: "raleway-bold";
+        font-weight: 300;
+}
 
 
 /*--------------------------------Bottom of page -----------------------------*/
@@ -567,6 +588,11 @@ aside {
     flex-direction: column;
     justify-content: space-between;   
     font-family: "raleway",sans-serif;
+}
+
+#containter_bottom_of_page h2 {
+    font-family: "raleway-bold";
+    font-weight: 300;
 }
 
 #container_bottom_of_page a {
@@ -583,7 +609,8 @@ aside {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-    
+    height: 485px;
+    max-width: 1500px;
 }
 
 .card_3 {
@@ -596,7 +623,9 @@ aside {
 }
 
 .card_3 h3 {
-    font-size: 1.1vw;
+    font-size: 1.4vw;
+    font-family: "raleway-bold";
+    font-weight: 300;
 }
 
 .card_3:hover {
@@ -613,6 +642,7 @@ aside {
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    max-width: 400px ;
 }
 
 .contenu_card_3 {
@@ -627,6 +657,7 @@ aside {
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    max-width: 400px
 }
 
 /*petite taile*/
@@ -637,6 +668,7 @@ aside {
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    max-width: 400px
 }
 
 
