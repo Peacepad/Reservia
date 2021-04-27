@@ -58,7 +58,7 @@
     }
 
     #hebergement_nav_mobile a {
-        color: #0065F;
+        color: C#0065F;
     }
 
     /*--------------------Container_top_of_page-----------------*/
@@ -87,8 +87,7 @@
         padding-left: 40px;
         padding-right: 20px;
         font-weight: bold;
-        font-size: 1em;
-        font-family: "raleway", sans-serif;
+        font-size: 1.1em;
 
     }
 
@@ -220,7 +219,6 @@
         width: 33.6vw;
         height: 16.6vh;
         min-height: 138px;
-        object-fit: cover;
     }
 
     .card_2 {
@@ -307,7 +305,6 @@
         width: 90vw;
         height: 16.6vh;
         min-height: 138px;
-        object-fit: cover;
     }
 
     .m-image_card_3 img {
