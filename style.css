@@ -154,6 +154,11 @@ h1 {
     outline: none;
 }
 
+#search_button_2 {
+    display: none;
+}
+
+
 /*----Les filtres---*/
 
 #top_of_page_3 {
@@ -592,7 +597,6 @@ aside {
 
 .card_3 h3 {
     font-size: 1.1vw;
-
 }
 
 .card_3:hover {

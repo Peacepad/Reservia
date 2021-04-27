@@ -58,7 +58,7 @@
     }
 
     #hebergement_nav_mobile a {
-        color: #0065FC;
+        color: C#0065F;
     }
 
     /*--------------------Container_top_of_page-----------------*/
@@ -75,6 +75,10 @@
         flex-direction: column;
     }
 
+    #filters_title {
+        max-height: 30px;
+    }
+
     #container_filters_form input {
         background-color: white;
         height: 48px;
@@ -84,6 +88,7 @@
         padding-right: 20px;
         font-weight: bold;
         font-size: 1.1em;
+
     }
 
 
@@ -213,6 +218,7 @@
     .image_card_2 img {
         width: 33.6vw;
         height: 16.6vh;
+        min-height: 138px;
     }
 
     .card_2 {
@@ -253,6 +259,7 @@
     .image_card img {
         width: 90vw;
         height: 16.6vh;
+        min-height: 138px;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
         object-fit: cover;
@@ -285,6 +292,7 @@
         width: 95%;
         margin: auto;
     }
+
     #container_card_3 {
         flex-direction: column;
         align-items: center;
@@ -296,16 +304,19 @@
     .image_card_3 img {
         width: 90vw;
         height: 16.6vh;
+        min-height: 138px;
     }
 
     .m-image_card_3 img {
         width: 90vw;
         height: 16.6vh;
+        min-height: 138px;
     }
 
     .s-image_card_3 img {
         width: 90vw;
         height: 16.6vh;
+        min-height: 138px;
     }
 
     .card_3 {
@@ -324,6 +335,51 @@
     #container_footer {
         flex-direction: column;
         margin-left: 5.3vw;
+    }
+
+
+
+
+
+
+    /*-----------------------Champ de recherche----------------------*/
+
+    #top_of_page_2 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    #search_input {
+        height: 50px ;
+        width: 60vw; /*taille à ajuster*/
+    }
+
+    #icon_location {
+        margin-right:0;
+        width: 50px;
+        height: 50px;
+    }
+    
+    #search_button {
+        position: relative;
+        height: 50px;
+        width: 50px;
+        border-radius: 10px;
+        left: -7px;
+    }
+
+    #search_button_1 {
+        display: none;
+    }
+
+    #search_button_2 {
+        display: contents;
+    }
+
+    #search_button img{
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(132deg) brightness(110%) contrast(101%);
+        height: 1em;
     }
 
 }
