@@ -209,6 +209,7 @@
     aside {
         padding-left: 0%;
         border-radius: 0;
+        max-width: none;
     }
 
     #aside_tittle {
@@ -221,6 +222,7 @@
         height: 16.6vh;
         min-height: 138px;
         object-fit: cover;
+        max-width: none;
     }
 
     .card_2 {
@@ -265,6 +267,7 @@
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
         object-fit: cover;
+        max-width: none;
     }
 
     .card
@@ -302,6 +305,7 @@
         margin: auto;
         width: 95%;
         height: auto;
+        
     }
 
     .image_card_3 img {
@@ -309,18 +313,21 @@
         height: 16.6vh;
         min-height: 138px;
         object-fit: cover;
+        max-width: none;
     }
 
     .m-image_card_3 img {
         width: 90vw;
         height: 16.6vh;
         min-height: 138px;
+        max-width: none;
     }
 
     .s-image_card_3 img {
         width: 90vw;
         height: 16.6vh;
         min-height: 138px;
+        max-width: none;
     }
 
     .card_3 {

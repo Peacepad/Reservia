@@ -389,7 +389,7 @@ h1 {
 
 article {
     display: flex;
-    width: 55vw;
+    width:60%;
     height: 100%;
     padding-left: 30px;
     flex-direction: column;
@@ -398,12 +398,6 @@ article {
     border-radius: 15px;
     background-color: #f2f2f2;
     font-weight: bold;
-    max-width: 900px;
-}
-
-article h2 {
-    font-family: "raleway-bold";
-    font-weight: 300;
 
 }
 
@@ -414,6 +408,7 @@ article h2 {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 
 .card {
@@ -458,7 +453,7 @@ article h2 {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit: fill;
-    max-width: 300px;
+    max-width: 250px;
 }
 
 
@@ -518,8 +513,8 @@ article a {
 
 aside {
     display: flex;
-    width: 30vw;
-    max-width: 600px;
+    width: 30%;
+    
     flex-direction: column;
     background-color: #f2f2f2;
     padding-left: 30px;
@@ -565,6 +560,7 @@ aside h2 {
     width: 10vw;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    max-width:148px;
 }
 
 .image_card_2 {
@@ -576,8 +572,8 @@ aside h2 {
 }
 
 .contenu_card_2 h3 {
-    font-family: "raleway-bold";
-    font-weight: 300;
+        font-family: "raleway-bold";
+        font-weight: 300;
 }
 
 
@@ -590,11 +586,6 @@ aside h2 {
     flex-direction: column;
     justify-content: space-between;   
     font-family: "raleway",sans-serif;
-}
-
-#containter_bottom_of_page h2 {
-    font-family: "raleway-bold";
-    font-weight: 300;
 }
 
 #container_bottom_of_page a {
@@ -612,8 +603,7 @@ aside h2 {
     justify-content: space-between;
     align-content: space-between;
     height: 485px;
-    max-height: 530px;
-    max-width: 1500px;
+    
 }
 
 .card_3 {
@@ -626,7 +616,7 @@ aside h2 {
 }
 
 .card_3 h3 {
-    font-size: 1.4vw;
+    font-size: 1.1em;
     font-family: "raleway-bold";
     font-weight: 300;
 }
@@ -645,7 +635,7 @@ aside h2 {
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    max-width: 300px ;
+    max-width:350px;
 }
 
 .contenu_card_3 {
@@ -660,7 +650,7 @@ aside h2 {
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    max-width: 300px
+    max-width:350px;
 }
 
 /*petite taile*/
@@ -671,7 +661,7 @@ aside h2 {
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    max-width: 300px
+    max-width:350px;
 }
 
 
