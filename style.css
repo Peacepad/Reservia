@@ -404,6 +404,7 @@ article {
 article h2 {
     font-family: "raleway-bold";
     font-weight: 300;
+
 }
 
 /*----------disposition des cards----------*/
@@ -457,6 +458,7 @@ article h2 {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit: fill;
+    max-width: 300px;
 }
 
 
@@ -574,8 +576,8 @@ aside h2 {
 }
 
 .contenu_card_2 h3 {
-        font-family: "raleway-bold";
-        font-weight: 300;
+    font-family: "raleway-bold";
+    font-weight: 300;
 }
 
 
@@ -610,6 +612,7 @@ aside h2 {
     justify-content: space-between;
     align-content: space-between;
     height: 485px;
+    max-height: 530px;
     max-width: 1500px;
 }
 
@@ -642,7 +645,7 @@ aside h2 {
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    max-width: 400px ;
+    max-width: 300px ;
 }
 
 .contenu_card_3 {
@@ -657,7 +660,7 @@ aside h2 {
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    max-width: 400px
+    max-width: 300px
 }
 
 /*petite taile*/
@@ -668,7 +671,7 @@ aside h2 {
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    max-width: 400px
+    max-width: 300px
 }
 
 
