@@ -134,7 +134,7 @@ h1 {
 
 #search_input {
     height: 30px ;
-    width: 180px;
+    width: 195px;
     border: #f2f2f2 1px solid;
     margin-right: 0;
     padding-left:10px;
@@ -169,7 +169,7 @@ h1 {
     display: flex;
     flex-direction: row;
     font-weight: bold;
-    justify-items: center;
+    
 }
 
 #filters_title {
@@ -370,6 +370,9 @@ h1 {
     filter: invert(24%) sepia(91%) saturate(3771%) hue-rotate(211deg) brightness(102%) contrast(106%);   
 }
 
+#top_of_page_4 {
+    font-size: 0.9em;
+}
 
 /*---------------------Container middle of page----------------*/
 

@@ -262,7 +262,7 @@
 
     .image_card img {
         width: 90vw;
-        height: 16.6vh;
+        height: 40vh;
         min-height: 138px;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
@@ -395,3 +395,17 @@
 
 }
 
+
+@media screen and (max-width: 500px) {
+
+.image_card img {
+    width: 90vw;
+    height: 16.6vh;
+    min-height: 138px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    max-width: none;
+}
+
+}
