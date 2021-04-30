@@ -619,9 +619,9 @@ aside h2 {
 }
 
 .card_3 h3 {
-    font-size: 1.1em;
+    font-size: 1.4vw;
     font-family: "raleway-bold";
-    font-weight: 300;
+    font-weight: 300;    
 }
 
 .card_3:hover {

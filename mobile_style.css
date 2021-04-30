@@ -262,7 +262,7 @@
 
     .image_card img {
         width: 90vw;
-        height: 40vh;
+        height: 35vh;
         min-height: 138px;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
@@ -312,6 +312,7 @@
         width: 90vw;
         height: 16.6vh;
         min-height: 138px;
+        min-width: 262px;
         object-fit: cover;
         max-width: none;
     }
@@ -320,6 +321,7 @@
         width: 90vw;
         height: 16.6vh;
         min-height: 138px;
+        min-width: 262px;
         max-width: none;
     }
 
@@ -327,6 +329,7 @@
         width: 90vw;
         height: 16.6vh;
         min-height: 138px;
+        min-width: 262px;
         max-width: none;
     }
 
