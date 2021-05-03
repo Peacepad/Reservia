@@ -1,6 +1,7 @@
 body {
     width: 100%;
-    margin:0;
+    margin:0px;
+    box-sizing: border-box;
     }
 
 #container_middle_of_page {
@@ -333,7 +334,7 @@ article {
 #container_bottom_of_page {
     margin-top: 25px;
     width: 90%;
-    margin: none;
+    margin: auto;
 }
 
 #container_card_3 {
@@ -385,7 +386,8 @@ article {
 /*--------------footer-------------------------*/
 #container_footer {
     flex-direction: column;
-    margin-left: 5.3vw;
+    width: 90%;
+    
 }
 
 
