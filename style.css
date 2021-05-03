@@ -19,7 +19,7 @@ body {
     display:flex;
     flex-direction: column;
     margin: auto;
-    max-width: 1500px;
+    max-width: 1600px;
 }
 
 em {
@@ -104,6 +104,14 @@ h1 {
     margin-bottom: 2px;
     font-family: "raleway-bold";
     font-weight: 300;
+}
+
+h2 {
+font-size: 1.3em;
+}
+
+h3 {
+    font-size: 1.1em;
 }
 
 #top_of_page_1 p {
@@ -411,12 +419,13 @@ article {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    
+    align-content: space-between;
+    height: 440px;
 }
 
 .card {
     background-color: white;
-    margin-bottom: 30px;
+    
     border-radius: 15px;
     box-shadow: 3px 3px 5px #e0dfdf;
     padding:5px;
@@ -436,7 +445,7 @@ article {
 
 /*--diminuer l'espacement entre le titre et le texte--*/
 .card h3 {
-    font-size: 1rem;
+    font-size: 1em;
     margin-bottom: 2px;
     font-family: "raleway-bold";
     font-weight: 300;
@@ -496,9 +505,15 @@ article a {
     text-decoration: none;
 }
 
+#view_more {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 #view_more:hover {
     text-decoration: underline;
 }
+
 
 
 
@@ -605,7 +620,7 @@ aside h2 {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-    height: 485px;
+    height: 490px;
     
 }
 
@@ -619,7 +634,7 @@ aside h2 {
 }
 
 .card_3 h3 {
-    font-size: 1.4vw;
+    
     font-family: "raleway-bold";
     font-weight: 300;    
 }

@@ -257,7 +257,9 @@
     #container_card {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
+        height: auto;
+        margin: auto;
     }
 
     .image_card img {
@@ -273,6 +275,7 @@
     .card
     {
         width: 90vw;
+        margin-bottom: 15px;
     }
 
     #view_more {
