@@ -111,7 +111,7 @@ font-size: 1.3em;
 }
 
 h3 {
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 #top_of_page_1 p {
@@ -354,7 +354,7 @@ h3 {
 
 #top_of_page_4 input:active {
     border: #0065FC solid 2px;
-    background-color: #DEEBFF;
+    background-color: #c3cad4;
 }
 
 /*----------top_of_page_4-------------*/
@@ -362,11 +362,11 @@ h3 {
 #ico_info {
     display: block;
     border-radius: 100%;
-    border: solid 1px #f2f2f2;
-    height: 0.9em;
-    width: 0.9em;
+    border: solid 1px #c4c2c2;
+    height: 1.1em;
+    width: 1.1em;
     text-align: center;
-    line-height: 0.9em;
+    line-height: 1.2em;
     float: left;
     margin-right:10px;
 }
@@ -418,12 +418,11 @@ article {
     flex-direction: row;
     justify-content: space-between;
     align-content: space-between;
-    height: 440px;
+    height: 430px;
 }
 
 .card {
     background-color: white;
-    
     border-radius: 15px;
     box-shadow: 3px 3px 5px #e0dfdf;
     padding:5px;
@@ -443,8 +442,8 @@ article {
 
 /*--diminuer l'espacement entre le titre et le texte--*/
 .card h3 {
-    font-size: 1em;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
+    margin-top: 2px;
     font-family: "raleway-bold";
     font-weight: 300;
 }
@@ -474,6 +473,7 @@ article {
     flex-direction: row; 
     align-content: flex-start;
     justify-items: center;
+    margin-top: 8px;
 }
 
 .blue_stars, .grey_stars {

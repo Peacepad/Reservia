@@ -43,11 +43,13 @@ body {
    #activites_nav_mobile {
         width: 50%;
         border-bottom: #DEEBFF 3px solid;
-        padding-bottom: 10px;
-        
-        
+        padding-bottom: 10px; 
     }
 
+
+    header{
+        width: 90%;
+    }
 
     #hebergement_nav_mobile {
         border-bottom: #0065FC 3px solid;
@@ -62,6 +64,7 @@ body {
     /*--------------------Container_top_of_page-----------------*/
     #container_top_of_page {
         font-size: 1.2em;
+        width: 90%;
     }
     
     h1 {
@@ -82,7 +85,7 @@ body {
         height: 48px;
         border: #f2f2f2 solid 2px;
         border-radius: 48px;
-        padding-left: 40px;
+        padding-left: 45px;
         padding-right: 20px;
         font-weight: bold;
         font-size: 1em;
@@ -105,7 +108,7 @@ body {
         height: 48px;
         width: 48px;
         position:absolute;
-        left: -14px;
+        left: -10px;
         border-radius: 100%;
         display:flex;
     }
@@ -124,7 +127,7 @@ body {
         height: 48px;
         width: 48px;
         position:absolute;
-        left: -14px;
+        left: -10px;
         border-radius: 100%;
         display:flex;
     }
@@ -144,7 +147,7 @@ body {
         height: 48px;
         width: 48px;
         position:absolute;
-        left: -14px;
+        left: -10px;
         border-radius: 100%;
         display:flex;
     }
@@ -163,7 +166,7 @@ body {
         height: 48px;
         width: 48px;
         position:absolute;
-        left: -14px;
+        left: -10px;
         border-radius: 100%;
         display:flex;
     }
@@ -194,7 +197,7 @@ body {
     /*---------------------Container middle of page----------------*/
 
     #container_middle_of_page {
-        width: 100vw;
+        width: 100%;
     }
 
     /*-------------------------Aside------------------------*/
@@ -211,13 +214,13 @@ body {
     }
 
     #aside_tittle {
-        width: 95vw;
+        width: 90%;
         margin: auto;
     }
 
     .image_card_2 img {
-        width: 33.6vw;
-        height: 16.6vh;
+        width: 40vw;
+        height: 20vh;
         min-height: 138px;
         object-fit: cover;
         max-width: none;
@@ -238,7 +241,7 @@ body {
     /*-------------------------Article------------------------*/
 
     article {
-        width: 100vw;
+        width: 100%;
         padding-left: 0;
         padding-right:0;
         border-radius: 0px;
@@ -246,7 +249,7 @@ body {
     }
 
     #middle_of_page_1_title {
-        width: 95%;
+        width: 90%;
         margin: auto;
         display: flex;
         
@@ -262,7 +265,7 @@ body {
 
     .image_card img {
         width: 90vw;
-        height: 25vh;
+        height: 20vh;
         min-height: 138px;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
@@ -277,7 +280,8 @@ body {
     }
 
     #view_more {
-        padding-left: 5.3vw;
+        width: 90%;
+        margin: auto;
     }
 
     .card h3 {
@@ -290,28 +294,26 @@ body {
 
     /*-------------------------container_bottom_of_page-----------------------------------*/
 
-    #container_bottom_of_page    {
-        width: 95%;
-    }
+   
 
-    #bottom_of_page_1 {
-        width: 95%;
-        margin: auto;
+    #container_bottom_of_page {
+        margin-top: 25px;
+        width: 90%;
+        margin: none;
     }
 
     #container_card_3 {
         flex-direction: column;
         align-items: center;
         max-height: none;
-        margin: auto;
-        width: 95%;
+        width: 90%;
         height: auto;
         
     }
 
     .image_card_3 img {
         width: 90vw;
-        height: 16.6vh;
+        height: 20vh;
         min-height: 138px;
         min-width: 262px;
         object-fit: cover;
@@ -320,7 +322,7 @@ body {
 
     .m-image_card_3 img {
         width: 90vw;
-        height: 16.6vh;
+        height: 20vh;
         min-height: 138px;
         min-width: 262px;
         max-width: none;
@@ -328,7 +330,7 @@ body {
 
     .s-image_card_3 img {
         width: 90vw;
-        height: 16.6vh;
+        height: 20vh;
         min-height: 138px;
         min-width: 262px;
         max-width: none;
@@ -360,28 +362,39 @@ body {
     /*-----------------------Champ de recherche----------------------*/
 
     #top_of_page_2 {
+        
+        margin-bottom: 30px;
+    }
+
+    #search_form {
         display: flex;
         justify-content: center;
-        margin-bottom: 30px;
+        height: auto;
+        position: relative;
     }
 
     #search_input {
         height: 50px ;
-        width: 60vw; /*taille à ajuster*/
+        width: 85vw;
+        padding-left: 52px;
     }
+
+
 
     #icon_location {
         margin-right:0;
         width: 50px;
         height: 50px;
+        position:absolute;
+        left: 0;
     }
     
     #search_button {
-        position: relative;
+        position: absolute;
         height: 50px;
         width: 50px;
         border-radius: 10px;
-        left: -7px;
+        right: 0px;
     }
 
     #search_button_1 {
@@ -411,5 +424,7 @@ body {
     object-fit: cover;
     max-width: none;
 }
+
+
 
 }
