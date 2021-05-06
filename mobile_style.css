@@ -300,7 +300,7 @@ article {
 .image_card img {
     width: 100%;
     height: 20vh;
-    
+    min-height: 138px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit: cover;
@@ -341,13 +341,17 @@ article {
     flex-direction: column;
     align-items: center;
     max-height: none;
-    width: 90%;
+    width: 100%;
     height: auto;
     box-sizing: border-box;
 }
 
+#container_card_3 a {
+    width: 100%;
+}
+
 .image_card_3 img {
-    width: 90vw;
+    width: 100%;
     height: 20vh;
     min-height: 138px;
     min-width: 262px;
@@ -356,7 +360,7 @@ article {
 }
 
 .m-image_card_3 img {
-    width: 90vw;
+    width: 100%;
     height: 20vh;
     min-height: 138px;
     min-width: 262px;
@@ -364,7 +368,7 @@ article {
 }
 
 .s-image_card_3 img {
-    width: 90vw;
+    width: 100%;
     height: 20vh;
     min-height: 138px;
     min-width: 262px;
@@ -373,7 +377,8 @@ article {
 
 .card_3 {
     margin-bottom: 15px;
-    width: 90vw;
+    width: 99.5%;
+    box-sizing: border-box;
 }
 
 
