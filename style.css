@@ -226,7 +226,7 @@ h3 {
 }
  
  
-#filters input:active { /*quand on clique sur le bouton */
+#container_filters_form input:active { /*quand on clique sur le bouton */
     border: #0065FC solid 2px;
     background-color: #DEEBFF;
 }
@@ -508,7 +508,7 @@ article a {
     margin-bottom: 20px;
 }
 
-#view_more:hover {
+#view_more a:hover {
     text-decoration: underline;
 }
 
