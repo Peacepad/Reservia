@@ -16,52 +16,52 @@
 <body>
 
     <header>
-        <div id="main_logo">
+        <div class="main-logo">
             <img src="images/logo/Reservia@3x.png" alt="main logo" />
         </div>
 
         <!--Menu de navigation-->
-        <nav id="nav_big_screen">
+        <nav class="nav-big-screen">
             <ul>
                 <li><a href="#container_middle_of_page">Hébergements</a></li>
-                <li><a href="#container_bottom_of_page" id="activities_link">Activités</a></li>
-                <li><a href="inscription.html" id="subscribe_link">S'inscrire</a></li>
+                <li><a href="#container_bottom_of_page">Activités</a></li>
+                <li><a href="inscription.html" class="nav-big-screen_subscribe">S'inscrire</a></li>
             </ul>
         </nav>
         <!--Fin du menu de navigation-->
 
 
         <!--Version mobile-->
-        <div id="subscribe"><a href="inscription.html" id="subscribe_header">S'inscrire</a></div>
+        <div class="header_subscribe"><a href="inscription.html">S'inscrire</a></div>
 
     </header>
 
-    <nav id="nav_mobile">
-      <div id="hebergement_nav_mobile">
+    <nav class="nav-mobile">
+      <div class="nav-mobile_hebergements">
           <a href="#container_middle_of_page">Hébergements</a>
       </div>
-      <div id="activites_nav_mobile">
+      <div class="nav-mobile_activites">
           <a href="#container_bottom_of_page">Activités</a>
       </div>
     </nav>
 
-    <section id="container_top_of_page">
+    <section class="top-of-page">
 
-        <div id="top_of_page_1">
+        <div class="top-of-page_1">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
         </div>
 
-        <div id="top_of_page_2"> <!--Champ de recherche-->
+        <div class="top-of-page_2"> <!--Champ de recherche-->
 
-            <form id="search_form" method="post" action="traitement.php">
-                <div id="icon_location">
+            <form class="search-form" method="post" action="traitement.php">
+                <div class="icon_location">
                   <i class="fas fa-map-marker-alt"></i>
                 </div>
-                <div id="container_search_input">
-                  <input id ="search_input" type="search" placeholder="Marseille, France" aria-label="Rechercher un endroit pour les vacances"/>
-                </div>
-                <button id="search_button" type="submit">
+                
+                <input class ="search_bar" type="search" placeholder="Marseille, France" aria-label="Rechercher un endroit pour les vacances"/>
+                
+                <button class="search_button" type="submit">
                   <span id="search_button_1">Rechercher</span>
                   <span id="search_button_2"><i class="fas fa-search"></i></span>
                   </button>
@@ -70,55 +70,54 @@
 
         </div>
 
-        <div id="top_of_page_3">
+        <div class="top-of-page_3">
 
-            <div id="filters_title">
+            <div class="top-of-page_3--title">
                 <p>Filtres</p>
             </div>
 
-            <div id="container_filters_form">
-
-                <form>
-                    <ul>
-                      <li>
-                        <div id="button_filters1">
-                          <div id="ico_filters1">
-                            <i class="fas fa-money-bill-wave"></i>
-                          </div>
-                          <input type="button" value="Économique">
+            <div class="container_filters">
+              <form>
+                  <ul>
+                    <li>
+                      <div class="button_filters button_filters_1">
+                        <div class="ico_filters ico_filters_1">
+                          <i class="fas fa-money-bill-wave"></i>
                         </div>
-                      </li>
-                      <li>
-                        <div id="button_filters2">
-                          <div id="ico_filters2">
-                            <i class="fas fa-child"></i>
-                          </div>
-                          <input type="button" value="Familial">
+                        <input type="button" value="Économique">
+                      </div>
+                    </li>
+                    <li>
+                      <div class="button_filters button_filters_2">
+                        <div class="ico_filters ico_filters_2">
+                          <i class="fas fa-child"></i>
                         </div>
-                      </li>
-                      <li>
-                        <div id="button_filters3">
-                          <div id="ico_filters3">
-                            <i class="fas fa-heart"></i>
-                          </div>
-                          <input type="button" value="Romantique">
+                        <input type="button" value="Familial">
+                      </div>
+                    </li>
+                    <li>
+                      <div class="button_filters button_filters_3">
+                        <div class="ico_filters ico_filters_3">
+                          <i class="fas fa-heart"></i>
                         </div>
-                      </li>
-                      <li>
-                        <div id="button_filters4">
-                          <div id="ico_filters4">
-                            <i class="fas fa-dog"></i>
-                          </div>
-                          <input type="button" value="Animaux autorisés">
+                        <input type="button" value="Romantique">
+                      </div>
+                    </li>
+                    <li>
+                      <div class="button_filters button_filters_4">
+                        <div class="ico_filters ico_filters_4">
+                          <i class="fas fa-dog"></i>
                         </div>
-                      </li>
-                    </ul>
-                </form>
-              </div>
+                        <input type="button" value="Animaux autorisés">
+                      </div>
+                    </li>
+                  </ul>
+              </form>
+            </div>
         </div>
         
 
-        <div id="top_of_page_4">
+        <div class="top-of-page_4">
             <p>
                 <span id="ico_info">
                   <i class="fas fa-info"></i>
@@ -129,14 +128,14 @@
 
     </section>
 
-    <section id="container_middle_of_page">
+    <section class="middle-of-page">
 
-        <article id="middle_of_page_1">
-          <div id="middle_of_page_1_title">
+        <article class="middle-of-page_article">
+          <div class="article_title">
             <h2>Hébergements à Marseille</h2>
           </div>
 
-          <div id="container_card">
+          <div class="article_container">
 
             <a href="#" title="#">
               <div class="card">
@@ -268,14 +267,14 @@
         </div>
 
 
-        <div id="view_more">
+        <div class="article_more">
           <p><a href="view_more.html">Afficher plus</a></p>
         </div>
         
         </article>
 
-        <aside id="middle_of_page_2">
-            <div id="aside_tittle">
+        <aside class="middle-of-page_aside">
+            <div class="aside_title">
               <h2>
                 Les plus populaires
                 <span id="ico_pop">
@@ -284,7 +283,7 @@
               </h2>
             </div>
 
-            <div id="container_card_2">
+            <div class="aside_container">
 
               <a href="#">
                 <div class="card_2">
@@ -359,13 +358,13 @@
 
     
     
-      <section id="container_bottom_of_page">
+      <section class="bottom-of-page">
 
-        <div id="bottom_of_page_1">
+        <div class="bottom-of-page_title">
           <h2>Activités à Marseille</h2>
         </div>
 
-        <div id="container_card_3">
+        <div class="bottom-of-page_container">
 
           <a href="#" title="#">
             <div class="card_3">
@@ -441,7 +440,7 @@
     </section>
 
     <footer>
-      <div id="container_footer">
+      <div class="container_footer">
         <div class="list_footer">
           <h3>A propos</h3>
           <ul>

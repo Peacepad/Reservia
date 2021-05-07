@@ -18,83 +18,6 @@ a{
     color: black;
 }
 
-
-
-/*----------------------Header------------------*/
-
-
-header {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 95%;
-    margin: auto;
-    margin-top: 0px;
-    height: 80px;
-    margin-bottom: 30px;
-    align-items: flex-end;
-}
-
-#main_logo img {
-    height: 45px;
-}
-
-#nav_big_screen {
-    margin-right: 38px;
-    height: 80px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-}
-
-#nav_big_screen ul {
-    display: flex;
-    list-style: none;
-    flex-direction: row;
-    margin-top: 0px;
-    align-items: center;
-}
-
-#nav_big_screen li {
-    margin-left:60px;
-    height: 100%;
-    text-align: center;
-    padding-top: 35px;
-    padding-left:15px;
-    padding-right:15px;
-    border-top: 2px solid rgba(0,0,0,0);
-    font-size: 1em;
-}
-
-#nav_big_screen li:hover {
-    border-top: #0065FC 2px solid;
-    
-}
-
-#nav_big_screen li:hover a {
-    color:#0065FC;
-}
-
-
-#subscribe_link {
-    font-family: "raleway", sans-serif;
-    font-weight: 700;
-}
-
-#subscribe_link {
-    color:#0065FC;
-}
-
-
-/*--------------------Container_top_of_page-----------------*/
-
-#container_top_of_page {
-    font-family: "raleway", sans-serif;
-    width: 95%;
-    margin:auto;
-    font-size: 0.9em;
-    margin-bottom:20px;
-}
-
 h1 {
     font-family: "raleway", sans-serif;
     margin-bottom: 2px;
@@ -113,18 +36,96 @@ h3 {
     font-weight: 700;
 }
 
-#top_of_page_1 p {
+
+/*----------------------Header------------------*/
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 95%;
+    margin: auto;
+    margin-top: 0px;
+    height: 80px;
+    margin-bottom: 30px;
+    align-items: flex-end;
+}
+
+.main-logo img {
+    height: 45px;
+}
+
+.nav-big-screen {
+    margin-right: 38px;
+    height: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.nav-big-screen ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    margin-top: 0px;
+    align-items: center;
+}
+
+.nav-big-screen li {
+    margin-left:60px;
+    height: 100%;
+    text-align: center;
+    padding-top: 35px;
+    padding-left:15px;
+    padding-right:15px;
+    border-top: 2px solid rgba(0,0,0,0);
+    font-size: 1em;
+}
+
+.nav-big-screen li:hover {
+    border-top: #0065FC 2px solid;
+    
+}
+
+.nav-big-screen li:hover a {
+    color:#0065FC;
+}
+
+
+.nav-big-screen_subscribe {
+    font-family: "raleway", sans-serif;
+    font-weight: 700;
+}
+
+.nav-big-screen_subscribe {
+    color:#0065FC;
+}
+
+
+/*--------------------.top-of-page-----------------*/
+
+.top-of-page {
+    font-family: "raleway", sans-serif;
+    width: 95%;
+    margin:auto;
+    font-size: 0.9em;
+    margin-bottom:20px;
+}
+
+
+
+.top-of-page_1 p {
     margin-top: 2px;
 }
 
 /*----Champ de recherche---*/
-#search_form {
+.search-form {
     display:flex;
     flex-direction: row;
     height:40px;
 }
 
-#icon_location {
+.icon_location {
     margin-right:0;
     width: 40px;
     height: 40px;
@@ -136,13 +137,13 @@ h3 {
     position: relative;
 }
 
-#icon_location i {
+.icon_location i {
     position: absolute;
     bottom: 13px;
     left:15px;
 }
 
-#search_input {
+.search_bar {
     height: 40px ;
     width: 220px;
     border: #f2f2f2 1px solid;
@@ -154,7 +155,7 @@ h3 {
     font-size: 1em;
 }
 
-#search_button {
+.search_button {
     border: none;
     background-color: #0065FC;
     color: white;
@@ -166,7 +167,7 @@ h3 {
     width: 90px;
 }
 
-#search_input:focus { /*empêche la bordure lorsqu'on écrit dans le champ de recherche */
+.search_bar:focus { /*empêche la bordure lorsqu'on écrit dans le champ de recherche */
     outline: none;
 }
 
@@ -177,19 +178,19 @@ h3 {
 
 /*----Les filtres---*/
 
-#top_of_page_3 {
+.top-of-page_3 {
     display: flex;
     flex-direction: row;
     font-weight: 700;   
 }
 
-#filters_title {
+.top-of-page_3--title {
     display:flex;
     align-items: center;
     margin-right: 20px;
 }
 
-#top_of_page_3 ul {
+.top-of-page_3 ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -197,11 +198,11 @@ h3 {
     padding: 0;
 }
 
-#top_of_page_3 li {
+.top-of-page_3 li {
     margin-left: 25px;
 }
 
-#container_filters_form input {
+.container_filters input {
     background-color: white;
     height: 40px;
     border: #f2f2f2 solid 2px;
@@ -212,154 +213,75 @@ h3 {
     font-size: 0.9em;
 }
 
-/*bouton 1*/
-#button_filters1 {
+.container_filters input:active { /*quand on clique sur le bouton */
+    border: #0065FC solid 2px;
+    background-color: #DEEBFF;
+}
+
+/*bouton de filtre*/
+.button_filters {
     position: relative;
 }
  
-#ico_filters1 {
+.ico_filters {
     background-color: #DEEBFF;
     height: 40px;
     width: 40px;
-    position:absolute;
+    position: absolute;
     left: -10px;
     border-radius: 100%;
     display:flex;
 }
  
- 
-#container_filters_form input:active { /*quand on clique sur le bouton */
-    border: #0065FC solid 2px;
-    background-color: #DEEBFF;
-}
- 
-#ico_filters1 i {
+.ico_filters i {
     height: 14px;
     margin: auto;
     /*filtre pour rendre l'icone de la bonne couleur*/
     filter: invert(24%) sepia(40%) saturate(6775%) hue-rotate(211deg) brightness(102%) contrast(102%);
 }
 
-/* bouton 1 avec hover*/
+/* boutons avec hover*/
 
-#button_filters1:hover #ico_filters1 {
+.button_filters_1:hover .ico_filters_1 {
     background-color: #0065FC;
 }   
 
-#button_filters1:hover #ico_filters1 i {
+.button_filters_1:hover .ico_filters_1 i {
     filter: invert(100%) sepia(40%) saturate(3842%) hue-rotate(177deg) brightness(104%) contrast(102%);
 }
 
-/*bouton2*/
-#button_filters2 {
-    height: 30px;
-    position: relative;
-}
- 
-#ico_filters2 {
-    background-color: #DEEBFF;
-    height: 40px;
-    width: 40px;
-    position:absolute;
-    left: -10px;
-    border-radius: 100%;
-    display:flex;
-}
- 
-#ico_filters2 i {
-    height: 13px;
-    margin: auto;
-    /*filtre pour rendre l'icone de la bonne couleur*/
-    filter: invert(24%) sepia(40%) saturate(6775%) hue-rotate(211deg) brightness(102%) contrast(102%);
-}
-
-/* bouton 2 avec hover*/
-
-#button_filters2:hover #ico_filters2 {
+.button_filters_2:hover .ico_filters_2 {
     background-color: #0065FC;
 }   
 
-#button_filters2:hover #ico_filters2 i {
+.button_filters_2:hover .ico_filters_2 i {
     filter: invert(100%) sepia(40%) saturate(3842%) hue-rotate(177deg) brightness(104%) contrast(102%);
 }
 
-
-/*bouton3*/
-#button_filters3 {
-    height: 30px;
-    position: relative;
-}
- 
-#ico_filters3 {
-    background-color: #DEEBFF;
-    height: 40px;
-    width: 40px;
-    position:absolute;
-    left: -10px;
-    border-radius: 100%;
-    display:flex;
-}
- 
-#ico_filters3 i {
-    height: 13px;
-    margin: auto;
-    /*filtre pour rendre l'icone de la bonne couleur*/
-    filter: invert(24%) sepia(40%) saturate(6775%) hue-rotate(211deg) brightness(102%) contrast(102%);
-}
-
-/* bouton 3 avec hover*/
-
-#button_filters3:hover #ico_filters3 {
+.button_filters_3:hover .ico_filters_3 {
     background-color: #0065FC;
 }   
 
-#button_filters3:hover #ico_filters3 i {
+.button_filters_3:hover .ico_filters_3 i {
     filter: invert(100%) sepia(40%) saturate(3842%) hue-rotate(177deg) brightness(104%) contrast(102%);
 }
 
-/*bouton4*/
-#button_filters4 {
-    height: 30px;
-    position: relative;
-}
- 
-#ico_filters4 {
-    background-color: #DEEBFF;
-    height: 40px;
-    width: 40px;
-    position:absolute;
-    left: -10px;
-    border-radius: 100%;
-    display:flex;
-}
- 
-#ico_filters4 i {
-    height: 13px;
-    margin: auto;
-    /*filtre pour rendre l'icone de la bonne couleur*/
-    filter: invert(24%) sepia(40%) saturate(6775%) hue-rotate(211deg) brightness(102%) contrast(102%);
-}
-
-/* bouton 4 avec hover*/
-
-#button_filters4:hover #ico_filters4 {
+.button_filters_4:hover .ico_filters_4 {
     background-color: #0065FC;
 }   
 
-#button_filters4:hover #ico_filters4 i {
+.button_filters_4:hover .ico_filters_4 i {
     filter: invert(100%) sepia(40%) saturate(3842%) hue-rotate(177deg) brightness(104%) contrast(102%);
 }
-
-
 
 /*Effet quand on clique sur le bouton*/
 
-#top_of_page_4 input:active {
+.top-of-page_4 input:active {
     border: #0065FC solid 2px;
     background-color: #c3cad4;
 }
 
-/*----------top_of_page_4-------------*/
+/*----------.top-of-page_4-------------*/
 
 #ico_info {
     display: block;
@@ -378,7 +300,7 @@ h3 {
     filter: invert(24%) sepia(91%) saturate(3771%) hue-rotate(211deg) brightness(102%) contrast(106%);   
 }
 
-#top_of_page_4 {
+.top-of-page_4 {
     font-size: 0.9em;
 }
 
@@ -386,7 +308,7 @@ h3 {
 
 
 
-#container_middle_of_page {
+.middle-of-page {
     width: 95%;
     margin: auto;
     display: flex;
@@ -395,7 +317,7 @@ h3 {
 
 }
 
-#container_middle_of_page a {
+.middle-of-page a {
     text-decoration: none;
 }
 
@@ -417,13 +339,13 @@ article {
     padding-bottom: 20px;
 }
 
-#middle_of_page_1_title {
+.article_title {
     width: 90%;
     margin:auto;
 }
 /*----------disposition des cards----------*/
 
-#container_card {
+.article_container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -514,14 +436,14 @@ article a {
     text-decoration: none;
 }
 
-#view_more {
+.article_more {
     margin-top: 20px;
     width: 90%;
     margin: auto;
 
 }
 
-#view_more a:hover {
+.article a:hover {
     text-decoration: underline;
 }
 
@@ -539,7 +461,7 @@ article a {
     float: right;
 }
 
-#aside_tittle {
+.aside_title {
     width: 85%;
     margin: auto;
     margin-top: 0;
@@ -560,7 +482,7 @@ aside {
 
 
 
-#container_card_2 {
+.aside_container {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
@@ -611,23 +533,23 @@ aside {
 
 /*--------------------------------Bottom of page -----------------------------*/
 
-#container_bottom_of_page {
+.bottom-of-page {
     display: flex;
     width: 95%;
     margin: auto;
     flex-direction: column;
     justify-content: space-between;   
     font-family: "raleway",sans-serif;
-    margin-top: 40px;;
+    margin-top: 40px;
 }
 
-#container_bottom_of_page a {
+.bottom-of-page a {
     text-decoration: none;
 }
 
 
 
-#container_card_3 {
+.bottom-of-page_container {
     display:flex;
     max-height: 493px;
     width: 100%;
@@ -701,7 +623,7 @@ footer {
     font-family: "raleway",sans-serif;
 }
 
-#container_footer {
+.container_footer {
     width:95%;
     margin: auto;
     display:flex;
@@ -732,10 +654,10 @@ footer ul {
 
 
 /*----------------------A ne pas afficher ------------------------*/
-#subscribe {
+.header_subscribe {
 display: none;
 }
 
-#nav_mobile {
+.nav-mobile {
     display: none;
 }

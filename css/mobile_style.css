@@ -4,7 +4,7 @@ body {
     box-sizing: border-box;
     }
 
-#container_middle_of_page {
+.middle-of-page {
     flex-direction: column;
     display: flex;
 }
@@ -14,13 +14,11 @@ a {
     
 }
 
-
-
-#nav_big_screen {
+.nav-big-screen {
     display:none;
 }
 
-#nav_mobile {
+.nav-mobile {
     display: contents;
     width: 100%;
     display: flex;
@@ -31,7 +29,7 @@ a {
 
 
 
-#activites_nav_mobile {
+.nav-mobile_activites {
     width: 50%;
     border-bottom: #DEEBFF 3px solid;
     padding-bottom: 10px; 
@@ -43,34 +41,35 @@ header {
     
 }
 
-#subscribe {
+.header_subscribe {
     display: contents;
     display: flex;
     position: relative;
     top: -10px;
 }
 
-#subscribe_header {
+.header_subscribe a {
     color: #0065FC;
     font-size: 1.3em;
-    font-family: "raleway-bold", sans-serif;
+    font-family: "raleway", sans-serif;
+    font-weight: 700;
 }
 
-#hebergement_nav_mobile {
+.nav-mobile_hebergements {
     border-bottom: #0065FC 3px solid;
     width: 50%;
     padding-bottom: 5px;
 }
 
-#hebergement_nav_mobile a {
+.nav-mobile_hebergements a {
     color: #0065FC;
 }
 
 
 
 
-/*--------------------Container_top_of_page-----------------*/
-#container_top_of_page {
+/*--------------------Container .top-of-page-----------------*/
+.top-of-page {
     font-size: 1.2em;
     width: 90%;
 }
@@ -80,15 +79,15 @@ h1 {
 }
 
 
-#top_of_page_3 {
+.top-of-page_3 {
     flex-direction: column;
 }
 
-#filters_title {
+.top-of-page_3--title {
     max-height: 30px;
 }
 
-#container_filters_form input {
+.container_filters input {
     background-color: white;
     height: 48px;
     border: #f2f2f2 solid 2px;
@@ -103,7 +102,7 @@ h1 {
 
 
 /*bouton 1*/
-#button_filters1 {
+.button_filters {
     height: 48px;
     position: relative;
     margin-bottom: 13px;
@@ -111,7 +110,7 @@ h1 {
     margin-right: 10px;
 }
 
-#ico_filters1 {
+.ico_filters {
     background-color: #DEEBFF;
     height: 48px;
     width: 48px;
@@ -121,85 +120,11 @@ h1 {
     display:flex;
 }
 
-#ico_filters1 i {
+#ico_filters i {
     height: auto;
 }
 
-/*bouton 2*/
-#button_filters2 {
-    height: 48px;
-    position: relative;
-    margin-bottom: 13px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-#ico_filters2 {
-    background-color: #DEEBFF;
-    height: 48px;
-    width: 48px;
-    position:absolute;
-    left: -10px;
-    border-radius: 100%;
-    display:flex;
-}
-
-#ico_filters2 i {
-    height: auto;
-}
-
-/*bouton 3*/
-#button_filters3 {
-    height: 48px;
-    position: relative;
-    margin-bottom: 13px;
-    margin-left: 10px;
-    margin-right: 10px;
-
-}
-
-#ico_filters3 {
-    background-color: #DEEBFF;
-    height: 48px;
-    width: 48px;
-    position:absolute;
-    left: -10px;
-    border-radius: 100%;
-    display:flex;
-}
-
-#ico_filters3 i {
-    height: auto;
-}
-
-/*bouton 4*/
-#button_filters4 {
-    height: 48px;
-    position: relative;
-    margin-bottom: 13px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-#ico_filters4 {
-    background-color: #DEEBFF;
-    height: 48px;
-    width: 48px;
-    position:absolute;
-    left: -10px;
-    border-radius: 100%;
-    display:flex;
-}
-
-#ico_filters4 i {
-    height: auto;
-}
-
-#top_of_page_3 li {
-    margin-left: 0px;
-}
-
-/*----------top_of_page_4-------------*/
+/*----------.top-of-page_4-------------*/
 
 #ico_info {
 display: block;
@@ -220,7 +145,7 @@ filter: invert(24%) sepia(91%) saturate(3771%) hue-rotate(211deg) brightness(102
 
 /*---------------------Container middle of page----------------*/
 
-#container_middle_of_page {
+.middle-of-page {
     width: 100%;
 }
 
@@ -229,20 +154,17 @@ aside {
     padding-left: 0%;
     border-radius: 0;
     max-width: none;
-}
-
-#middle_of_page_2{
     width: 100%; 
     order: -1;
 }
 
-#container_card_2 {
+.aside_container {
     width: 90%;
     margin: auto; 
 }
 
 
-#aside_tittle {
+.aside_title {
     width: 90%;
     margin: auto;
 }
@@ -296,14 +218,14 @@ article {
     background-color: white;
 }
 
-#middle_of_page_1_title {
+.article_title {
     width: 90%;
     margin: auto;
     display: flex;
     
 }
 
-#container_card {
+.article_container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -330,7 +252,7 @@ article {
     box-sizing: border-box;
 }
 
-#view_more {
+.article_more {
     width: 90%;
     margin: auto;
 }
@@ -343,17 +265,17 @@ article {
     font-size:1em;
 }
 
-/*-------------------------container_bottom_of_page-----------------------------------*/
+/*-------------------------.bottom-of-page-----------------------------------*/
 
 
 
-#container_bottom_of_page {
+.bottom-of-page {
     margin-top: 25px;
     width: 90%;
     margin: auto;
 }
 
-#container_card_3 {
+.bottom-of-page_container {
     flex-direction: column;
     align-items: center;
     max-height: none;
@@ -362,7 +284,7 @@ article {
     box-sizing: border-box;
 }
 
-#container_card_3 a {
+.bottom-of-page_container a {
     width: 100%;
 }
 
@@ -401,8 +323,9 @@ article {
 
 
 
+
 /*--------------footer-------------------------*/
-#container_footer {
+.container_footer {
     flex-direction: column;
     width: 90%;
     
@@ -415,19 +338,19 @@ article {
 
 /*-----------------------Champ de recherche----------------------*/
 
-#top_of_page_2 {
+.top-of-page_2 {
     
     margin-bottom: 30px;
 }
 
-#search_form {
+.search-form {
     display: flex;
     justify-content: center;
     height: auto;
     position: relative;
 }
 
-#search_input {
+.search_bar {
     height: 50px ;
     width: 85vw;
     padding-left: 52px;
@@ -435,7 +358,7 @@ article {
 
 
 
-#icon_location {
+.icon_location {
     margin-right:0;
     width: 50px;
     height: 50px;
@@ -443,13 +366,13 @@ article {
     left: 0;
 }
 
-#icon_location i {
+.icon_location i {
     position: absolute;
     bottom: 15px;
     left: 17px;
 }
 
-#search_button {
+.search_button {
     position: absolute;
     height: 50px;
     width: 50px;
@@ -465,7 +388,8 @@ article {
     display: contents;
 }
 
-#search_button img{
+.fas fa-search {
+    color: white;
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(132deg) brightness(110%) contrast(101%);
     height: 1em;
 }
