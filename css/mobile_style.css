@@ -121,6 +121,10 @@ h1 {
     display:flex;
 }
 
+#ico_filters1 i {
+    height: auto;
+}
+
 /*bouton 2*/
 #button_filters2 {
     height: 48px;
@@ -138,6 +142,10 @@ h1 {
     left: -10px;
     border-radius: 100%;
     display:flex;
+}
+
+#ico_filters2 i {
+    height: auto;
 }
 
 /*bouton 3*/
@@ -160,6 +168,10 @@ h1 {
     display:flex;
 }
 
+#ico_filters3 i {
+    height: auto;
+}
+
 /*bouton 4*/
 #button_filters4 {
     height: 48px;
@@ -177,6 +189,10 @@ h1 {
     left: -10px;
     border-radius: 100%;
     display:flex;
+}
+
+#ico_filters4 i {
+    height: auto;
 }
 
 #top_of_page_3 li {
@@ -197,8 +213,8 @@ float: left;
 margin-right:10px;
 }
 
-#ico_info img {
-height: 12px;
+#ico_info i {
+height: 9px;
 filter: invert(24%) sepia(91%) saturate(3771%) hue-rotate(211deg) brightness(102%) contrast(106%);   
 }
 
@@ -382,10 +398,7 @@ article {
 }
 
 
-.card_3 h3 {
-    font-size: 1.2em;
 
-}
 
 
 /*--------------footer-------------------------*/
@@ -428,6 +441,12 @@ article {
     height: 50px;
     position:absolute;
     left: 0;
+}
+
+#icon_location i {
+    position: absolute;
+    bottom: 15px;
+    left: 17px;
 }
 
 #search_button {
