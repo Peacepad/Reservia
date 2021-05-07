@@ -4,15 +4,36 @@ body {
     box-sizing: border-box;
     }
 
-.middle-of-page {
-    flex-direction: column;
-    display: flex;
+h1 {
+    font-size: 1.4em;
 }
+
+h2 {
+    font-size:1.3em;
+}
+
+
 
 a {
     text-decoration: none;
     
 }
+
+
+.blue_stars i
+{
+    font-size: 0.8em;
+}
+
+
+
+
+
+
+
+
+
+
 
 .nav-big-screen {
     display:none;
@@ -74,9 +95,7 @@ header {
     width: 90%;
 }
 
-h1 {
-    font-size: 1.8em;
-}
+
 
 
 .top-of-page_3 {
@@ -90,7 +109,7 @@ h1 {
 .container_filters input {
     background-color: white;
     height: 48px;
-    border: #f2f2f2 solid 2px;
+    border: #d9d9d9 solid 3px;
     border-radius: 48px;
     padding-left: 45px;
     padding-right: 20px;
@@ -100,6 +119,10 @@ h1 {
 
 }
 
+.top-of-page_3 li {
+    margin-left: 0;
+    margin-right: 15px;
+}
 
 /*bouton 1*/
 .button_filters {
@@ -127,26 +150,33 @@ h1 {
 /*----------.top-of-page_4-------------*/
 
 #ico_info {
-display: block;
-border-radius: 100%;
-border: solid 1px #f2f2f2;
-height: 1.2em;
-width: 1.2em;
-text-align: center;
-line-height: 1.2em;
-float: left;
-margin-right:10px;
+    display: block;
+    border: none;
+    
+    height: 3em;
+    
+    text-align: center;
+    line-height: 1.4em;
+    float: left;
+    margin-right:10px;
 }
 
 #ico_info i {
-height: 9px;
-filter: invert(24%) sepia(91%) saturate(3771%) hue-rotate(211deg) brightness(102%) contrast(106%);   
+    border: solid 1px #d9d9d9;
+    height:20px;
+    width:20px;
+    line-height: 1.2em;
+    border-radius: 100%;
+    font-size:0.8em;
+    filter: invert(24%) sepia(91%) saturate(3771%) hue-rotate(211deg) brightness(102%) contrast(106%);   
 }
 
 /*---------------------Container middle of page----------------*/
 
 .middle-of-page {
     width: 100%;
+    flex-direction: column;
+    display: flex;
 }
 
 /*-------------------------Aside------------------------*/
@@ -167,6 +197,7 @@ aside {
 .aside_title {
     width: 90%;
     margin: auto;
+    margin-bottom: 5px;
 }
 
 .image_card_2 img {
@@ -192,14 +223,14 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-right: 15px;
+    padding-right: 20px;
     position: relative;
     
 }
 
 .contenu_card_2 h3 {
     margin-bottom: 0;
-    margin-top: 0;
+    margin-top: 10px;
     font-size: 1.2em;
 }
 
@@ -218,7 +249,7 @@ article {
     background-color: white;
 }
 
-.article_title {
+#article_title {
     width: 90%;
     margin: auto;
     display: flex;
@@ -233,6 +264,7 @@ article {
     margin: auto;
     width: 90%;
     align-content: unset;
+    margin-bottom: 0;
 }
 
 .image_card img {
@@ -257,6 +289,11 @@ article {
     margin: auto;
 }
 
+.article_more p {
+    margin:0;
+    font-size: 1.2em;
+}
+
 .card h3 {
     font-size: 1.1em;
 }
@@ -270,9 +307,14 @@ article {
 
 
 .bottom-of-page {
-    margin-top: 25px;
+    
     width: 90%;
     margin: auto;
+    margin-top: 10px;
+}
+
+.bottom-of-page_title {
+    margin-bottom:10px;
 }
 
 .bottom-of-page_container {
@@ -328,8 +370,9 @@ article {
 .container_footer {
     flex-direction: column;
     width: 90%;
-    
 }
+
+
 
 
 

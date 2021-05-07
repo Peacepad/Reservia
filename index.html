@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Reservia</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-  <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;600;700&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700&display=swap" rel="stylesheet"> 
   
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" media="screen and (max-width: 1080px)" href="css/mobile_style.css" />
@@ -23,8 +24,8 @@
         <!--Menu de navigation-->
         <nav class="nav-big-screen">
             <ul>
-                <li><a href="#container_middle_of_page">Hébergements</a></li>
-                <li><a href="#container_bottom_of_page">Activités</a></li>
+                <li><a href="#article_title">Hébergements</a></li>
+                <li><a href="#ancre_activites">Activités</a></li>
                 <li><a href="inscription.html" class="nav-big-screen_subscribe">S'inscrire</a></li>
             </ul>
         </nav>
@@ -38,10 +39,10 @@
 
     <nav class="nav-mobile">
       <div class="nav-mobile_hebergements">
-          <a href="#container_middle_of_page">Hébergements</a>
+          <a href="#article_title">Hébergements</a>
       </div>
       <div class="nav-mobile_activites">
-          <a href="#container_bottom_of_page">Activités</a>
+          <a href="#ancre_activites">Activités</a>
       </div>
     </nav>
 
@@ -131,7 +132,7 @@
     <section class="middle-of-page">
 
         <article class="middle-of-page_article">
-          <div class="article_title">
+          <div id="article_title">
             <h2>Hébergements à Marseille</h2>
           </div>
 
@@ -294,11 +295,11 @@
                     <h3>Hôtel Le soleil du matin</h3><p>Nuit à partir de 128<em>€</em></p>
                     <div class="rating">
                       <span class="blue_stars">
-                          <img src="images/icones/star-solid.svg" alt="" />
-                          <img src="images/icones/star-solid.svg" alt="" />
-                          <img src="images/icones/star-solid.svg" alt="" />
-                          <img src="images/icones/star-solid.svg" alt="" />
-                          <img src="images/icones/star-solid.svg" alt="" />
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                       </span>
                     </div>
                   </div>
@@ -314,13 +315,13 @@
                       <h3>Au cœur de l'eau Chambres d'hôtes</h3><p>Nuit à partir de 71<em>€</em></p>
                       <div class="rating">
                         <span class="blue_stars">
-                            <img src="images/icones/star-solid.svg" alt="" />
-                            <img src="images/icones/star-solid.svg" alt="" />
-                            <img src="images/icones/star-solid.svg" alt="" />
-                            <img src="images/icones/star-solid.svg" alt="" />
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
                           </span>
                           <span class="grey_stars">
-                            <img src="images/icones/star-solid.svg" alt="" />
+                            <i class="fas fa-star"></i>
                           </span>
                       </div>
                     </div>
@@ -336,13 +337,13 @@
                       <h3>Hôtel tout bleu et Blanc</h3><p>Nuits à partir de 68<em>€</em></p>
                       <div class="rating">
                         <span class="blue_stars">
-                            <img src="images/icones/star-solid.svg" alt="" />
-                            <img src="images/icones/star-solid.svg" alt="" />
-                            <img src="images/icones/star-solid.svg" alt="" />
-                            <img src="images/icones/star-solid.svg" alt="" />
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
                           </span>
                           <span class="grey_stars">
-                            <img src="images/icones/star-solid.svg" alt="" />
+                            <i class="fas fa-star"></i>
                           </span>
                       </div>
                     </div>
@@ -361,7 +362,7 @@
       <section class="bottom-of-page">
 
         <div class="bottom-of-page_title">
-          <h2>Activités à Marseille</h2>
+          <h2 id="ancre_activites">Activités à Marseille</h2>
         </div>
 
         <div class="bottom-of-page_container">
