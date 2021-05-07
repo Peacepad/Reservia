@@ -31,9 +31,9 @@ h2 {
 }
 
 h3 {
-    font-size: 1.1em;
+    font-size: 1em;
     font-family: "raleway", sans-serif;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 
@@ -48,7 +48,7 @@ header {
     margin: auto;
     margin-top: 0px;
     height: 80px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     align-items: flex-end;
 }
 
@@ -115,8 +115,7 @@ header {
 
 
 .top-of-page_1 p {
-    margin-top: 4px;
-    font-weight: 300;
+    margin-top: 2px;
 }
 
 /*----Champ de recherche---*/
@@ -183,7 +182,6 @@ header {
     display: flex;
     flex-direction: row;
     font-weight: 700;   
-    margin-top: 5px;
 }
 
 .top-of-page_3--title {
@@ -207,7 +205,7 @@ header {
 .container_filters input {
     background-color: white;
     height: 40px;
-    border: #d9d9d9 solid 3px;
+    border: #f2f2f2 solid 2px;
     border-radius: 20px;
     padding-left: 40px;
     padding-right: 20px;
@@ -236,6 +234,7 @@ header {
 }
  
 .ico_filters i {
+    height: 14px;
     margin: auto;
     /*filtre pour rendre l'icone de la bonne couleur*/
     filter: invert(24%) sepia(40%) saturate(6775%) hue-rotate(211deg) brightness(102%) contrast(102%);
@@ -275,6 +274,12 @@ header {
     filter: invert(100%) sepia(40%) saturate(3842%) hue-rotate(177deg) brightness(104%) contrast(102%);
 }
 
+/*Effet quand on clique sur le bouton*/
+
+.top-of-page_4 input:active {
+    border: #0065FC solid 2px;
+    background-color: #c3cad4;
+}
 
 /*----------.top-of-page_4-------------*/
 
@@ -285,20 +290,18 @@ header {
     height: 1.3em;
     width: 1.3em;
     text-align: center;
-    line-height: 1.3em;
+    line-height: 1.4em;
     float: left;
     margin-right:10px;
 }
 
 #ico_info i {
-    font-size:1em;
+    height: 10px;
     filter: invert(24%) sepia(91%) saturate(3771%) hue-rotate(211deg) brightness(102%) contrast(106%);   
 }
 
 .top-of-page_4 {
-    font-size: 1em;
-    font-weight: 300;
-    line-height: 1.5em;
+    font-size: 0.9em;
 }
 
 /*---------------------Container middle of page----------------*/
@@ -324,7 +327,7 @@ header {
 article {
     display: flex;
     width:65%;
-    
+    height: 100%;
     
     flex-direction: column;
     flex-wrap: wrap;
@@ -336,7 +339,7 @@ article {
     padding-bottom: 20px;
 }
 
-#article_title {
+.article_title {
     width: 90%;
     margin:auto;
 }
@@ -351,7 +354,6 @@ article {
     height: 430px;
     width: 90%;
     margin: auto;
-    margin-bottom: 20px;
 }
 
 .card {
@@ -381,9 +383,9 @@ article {
 
 .contenu_card p {
     margin-top:2px;
-    font-size:0.9em;
+    font-size:0.8em;
+    font-weight: normal;
     margin-bottom:5px;
-    font-weight: 400;
 }
 
 /*redimension des images*/
@@ -416,14 +418,16 @@ article {
 }
 
 .blue_stars i {
-    font-size: 0.8em;
+    height: 15px;
+    width: 15px;
     filter: invert(24%) sepia(91%) saturate(3771%) hue-rotate(211deg) brightness(102%) contrast(106%);
     margin-right: 5px;
 }
 
 .grey_stars i {
     margin-right: 5px;
-    font-size: 0.8em;
+    width: 15px;
+    height: 15px;
     filter: invert(100%) sepia(1%) saturate(2549%) hue-rotate(214deg) brightness(88%) contrast(94%);
 }
 
@@ -433,6 +437,7 @@ article a {
 }
 
 .article_more {
+    margin-top: 20px;
     width: 90%;
     margin: auto;
 
@@ -523,10 +528,6 @@ aside {
     color: black
 }
 
-.contenu_card_2 p {
-    font-size: 0.9em;
-    font-weight: 400;
-}
 
 
 
@@ -649,9 +650,7 @@ footer ul {
     margin-right: 190px;
 }
 
-.list_footer li {
-    margin-bottom:8px;
-}
+
 
 
 /*----------------------A ne pas afficher ------------------------*/
