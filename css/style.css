@@ -384,6 +384,7 @@ article {
 .card h3 {
     margin-bottom: 4px;
     margin-top: 2px;
+    text-overflow: ellipsis;
 }
 
 .contenu_card p {
@@ -391,6 +392,7 @@ article {
     font-size: 0.9em;
     margin-bottom: 5px;
     font-weight: 400;
+    
 }
 
 /*redimension des images*/
