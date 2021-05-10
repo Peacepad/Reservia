@@ -1,3 +1,4 @@
+@media screen and (max-width: 500px) {
 body {
     width: 100%;
     margin:0px;
@@ -25,6 +26,7 @@ a {
     text-align: center;
     font-family: "raleway", sans-serif;
     margin-bottom: 15px;
+    font-weight: 500;
 }
 
 
@@ -50,7 +52,7 @@ header {
 
 .header_subscribe a {
     color: #0065FC;
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-family: "raleway", sans-serif;
     font-weight: 700;
 }
@@ -72,16 +74,27 @@ header {
 .top-of-page {
     font-size: 1.2em;
     width: 90%;
+    margin-top: 30px;
 }
+
 
 h1 {
-    font-size: 1.8em;
+    font-size: 1.3em;
 }
 
+.top-of-page_1 p {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 0.9em;
+    margin-bottom: 30px;
+}
 
 .top-of-page_3 {
     flex-direction: column;
 }
+
+
+
 
 .top-of-page_3--title {
     max-height: 30px;
@@ -92,12 +105,12 @@ h1 {
     height: 48px;
     border: #f2f2f2 solid 2px;
     border-radius: 48px;
-    padding-left: 45px;
-    padding-right: 20px;
+    padding-left: 42px;
+    padding-right: 10px;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 0.9em;
     font-family: "raleway", sans-serif;
-
+    margin-right: 0;
 }
 
 
@@ -127,20 +140,27 @@ h1 {
 /*----------.top-of-page_4-------------*/
 
 #ico_info {
-display: block;
-border-radius: 100%;
-border: solid 1px #f2f2f2;
-height: 1.2em;
-width: 1.2em;
-text-align: center;
-line-height: 1.2em;
-float: left;
-margin-right:10px;
+    display: block;
+    border: none;
+    height: 3em;
+    text-align: center;
+    line-height: 1.4em;
+    float: left;
+    margin-right: 10px;
 }
 
 #ico_info i {
-height: 9px;
-filter: invert(24%) sepia(91%) saturate(3771%) hue-rotate(211deg) brightness(102%) contrast(106%);   
+    border: solid 1px #d9d9d9;
+    height: 20px;
+    width: 20px;
+    line-height: 1.5em;
+    border-radius: 100%;
+    font-size: 0.8em;
+    filter: invert(24%) sepia(91%) saturate(3771%) hue-rotate(211deg) brightness(102%) contrast(106%);
+}
+
+.top-of-page_4 {
+    font-size: 0.8em;
 }
 
 /*---------------------Container middle of page----------------*/
@@ -170,7 +190,7 @@ aside {
 }
 
 .image_card_2 img {
-    width: 40vw;
+    width: 35vw;
     height: 20vh;
     min-height: 138px;
     object-fit: cover;
@@ -255,6 +275,7 @@ article {
 .article_more {
     width: 90%;
     margin: auto;
+    font-size: 1.2em;
 }
 
 .card h3 {
@@ -331,9 +352,14 @@ article {
     
 }
 
+.list_footer
+{
+    margin-right: 0;
+}
 
-
-
+.list_footer li {
+    margin-bottom: 10px;
+}
 
 
 /*-----------------------Champ de recherche----------------------*/
@@ -394,9 +420,4 @@ article {
     height: 1em;
 }
 
-
-@media screen and (max-width: 500px) {
-    .image_card_2 img {
-        width: 30vw;
-    }
 }

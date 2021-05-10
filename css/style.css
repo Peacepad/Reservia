@@ -31,7 +31,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1em;
+    font-size: 1.1em;
     font-family: "raleway", sans-serif;
     font-weight: 700;
 }
@@ -109,13 +109,14 @@ header {
     width: 95%;
     margin:auto;
     font-size: 0.9em;
-    margin-bottom:20px;
+    margin-bottom:30px;
 }
 
 
 
 .top-of-page_1 p {
-    margin-top: 2px;
+    margin-top: 4px;
+    font-weight: 300;
 }
 
 /*----Champ de recherche---*/
@@ -164,7 +165,7 @@ header {
     font-size: 0.9em;
     font-weight: bold;
     font-family: "raleway", sans-serif;
-    width: 90px;
+    width: 95px;
 }
 
 .search_bar:focus { /*empêche la bordure lorsqu'on écrit dans le champ de recherche */
@@ -181,13 +182,15 @@ header {
 .top-of-page_3 {
     display: flex;
     flex-direction: row;
-    font-weight: 700;   
+    font-weight: 700; 
+    margin-top: 15px; 
 }
 
 .top-of-page_3--title {
     display:flex;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 40px;
+    font-size: 1.1em;
 }
 
 .top-of-page_3 ul {
@@ -198,19 +201,19 @@ header {
     padding: 0;
 }
 
-.top-of-page_3 li {
-    margin-left: 25px;
-}
+
+
 
 .container_filters input {
     background-color: white;
     height: 40px;
-    border: #f2f2f2 solid 2px;
+    border: #d9d9d9 solid 3px;
     border-radius: 20px;
     padding-left: 40px;
     padding-right: 20px;
     font-weight: bold;
     font-size: 0.9em;
+    margin-right: 25px;
 }
 
 .container_filters input:active { /*quand on clique sur le bouton */
@@ -234,7 +237,7 @@ header {
 }
  
 .ico_filters i {
-    height: 14px;
+    
     margin: auto;
     /*filtre pour rendre l'icone de la bonne couleur*/
     filter: invert(24%) sepia(40%) saturate(6775%) hue-rotate(211deg) brightness(102%) contrast(102%);
@@ -277,8 +280,8 @@ header {
 /*Effet quand on clique sur le bouton*/
 
 .top-of-page_4 input:active {
-    border: #0065FC solid 2px;
-    background-color: #c3cad4;
+    border: #0065FC solid 3px;
+    background-color: #c4c2c2;
 }
 
 /*----------.top-of-page_4-------------*/
@@ -290,18 +293,20 @@ header {
     height: 1.3em;
     width: 1.3em;
     text-align: center;
-    line-height: 1.4em;
+    line-height: 1.3em;
     float: left;
     margin-right:10px;
 }
 
 #ico_info i {
-    height: 10px;
+    font-size:1em;
     filter: invert(24%) sepia(91%) saturate(3771%) hue-rotate(211deg) brightness(102%) contrast(106%);   
 }
 
 .top-of-page_4 {
-    font-size: 0.9em;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
 }
 
 /*---------------------Container middle of page----------------*/
@@ -339,7 +344,7 @@ article {
     padding-bottom: 20px;
 }
 
-.article_title {
+#article_title {
     width: 90%;
     margin:auto;
 }
@@ -364,7 +369,7 @@ article {
 }
 
 .card:hover {
-    outline: #0065FC solid 1px;
+    box-shadow: 3px 3px 5px #c4c2c2;
 }
 
 .card:active {
@@ -382,10 +387,10 @@ article {
 }
 
 .contenu_card p {
-    margin-top:2px;
-    font-size:0.8em;
-    font-weight: normal;
-    margin-bottom:5px;
+    margin-top: 2px;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+    font-weight: 400;
 }
 
 /*redimension des images*/
@@ -418,16 +423,14 @@ article {
 }
 
 .blue_stars i {
-    height: 15px;
-    width: 15px;
+    font-size: 0.8em;
     filter: invert(24%) sepia(91%) saturate(3771%) hue-rotate(211deg) brightness(102%) contrast(106%);
     margin-right: 5px;
 }
 
 .grey_stars i {
     margin-right: 5px;
-    width: 15px;
-    height: 15px;
+    font-size: 0.8em;
     filter: invert(100%) sepia(1%) saturate(2549%) hue-rotate(214deg) brightness(88%) contrast(94%);
 }
 
@@ -505,7 +508,7 @@ aside {
 }
 
 .card_2:hover {
-    outline: #0065FC solid 1px;
+    box-shadow: 3px 3px 5px #c4c2c2;
 }
 
 .card_2:active {
@@ -572,7 +575,7 @@ aside {
 
 
 .card_3:hover {
-    outline: #0065FC solid 1px;
+    box-shadow: 3px 3px 5px #c4c2c2;
 }
 
 .card_3:active {
@@ -588,10 +591,17 @@ aside {
     max-width:350px;
 }
 
-.contenu_card_3 {
-    margin-left: 15px;
-    color: black;
+.contenu_card_3 h3 {
+    padding-left: 15px;
 }
+
+.contenu_card_3 {
+    color: black;
+    width: 21vw;
+    
+}
+
+
 
 /*taille moyenne*/
 .m-image_card_3 img {
@@ -621,6 +631,7 @@ footer {
     background-color: #f2f2f2;
     margin-top: 40px;
     font-family: "raleway",sans-serif;
+    padding-bottom: 20px;
 }
 
 .container_footer {
@@ -645,12 +656,15 @@ footer ul {
     padding: 0;
 }
 
+
 .list_footer
 {
     margin-right: 190px;
 }
 
-
+footer li {
+    margin-bottom: 8px;
+}
 
 
 /*----------------------A ne pas afficher ------------------------*/
