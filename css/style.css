@@ -3,10 +3,17 @@
 /*--------------------Général-------------------*/
 
 body {
+    margin:0;
+}
+
+.contenu_page {
+    max-width: 1519px;
+    margin: auto;
     display:flex;
     flex-direction: column;
-    margin: auto;
-    max-width: 1520px;
+    justify-content: center;
+    width: 100vw;
+    box-sizing: border-box;
 }
 
 em {
@@ -600,7 +607,7 @@ aside {
 .contenu_card_3 {
     color: black;
     width: 21vw;
-    
+    max-width:350px;
 }
 
 
@@ -633,7 +640,15 @@ footer {
     background-color: #f2f2f2;
     margin-top: 40px;
     font-family: "raleway",sans-serif;
-    padding-bottom: 20px;
+    
+    width: 100%;
+    
+}
+
+.footer100 {
+    width: 100%;
+    max-width: 1519px;
+    margin: auto;
 }
 
 .container_footer {
@@ -642,6 +657,7 @@ footer {
     display:flex;
     flex-direction: row;
     justify-content:flex-start;
+    
 }
 
 footer a {

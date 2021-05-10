@@ -357,6 +357,9 @@
 
 
     /*--------------footer-------------------------*/
+    .footer {
+        padding-bottom: 20px;
+    }
     .container_footer {
         flex-direction: row;
         justify-content: space-between;
