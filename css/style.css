@@ -12,7 +12,7 @@ body {
     display:flex;
     flex-direction: column;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     box-sizing: border-box;
 }
 
@@ -408,7 +408,7 @@ article {
     height: 114px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    object-fit: fill;
+    object-fit: cover;
     max-width: 250px;
 }
 
@@ -530,6 +530,7 @@ aside {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     max-width:148px;
+    object-fit: cover;
 }
 
 .image_card_2 {
