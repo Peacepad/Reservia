@@ -221,6 +221,7 @@ header {
     font-weight: bold;
     font-size: 0.9em;
     margin-right: 25px;
+    -webkit-appearance: none;
 }
 
 .container_filters input:active { /*quand on clique sur le bouton */

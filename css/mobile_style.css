@@ -107,6 +107,7 @@
         font-size: 0.9em;
         font-family: "raleway", sans-serif;
         margin-right: 0;
+        -webkit-appearance: none;
     }
 
 
