@@ -650,6 +650,7 @@ footer {
     width: 100%;
     max-width: 1519px;
     margin: auto;
+    padding-bottom: 20px;
 }
 
 .container_footer {
@@ -678,7 +679,7 @@ footer ul {
 
 .list_footer
 {
-    margin-right: 190px;
+    margin-right: 300px;
 }
 
 footer li {
