@@ -189,7 +189,7 @@
     }
 
     .aside_container a {
-        width: 42%;
+        width: 45%;
     }
 
     .image_card_2 img {
@@ -353,9 +353,8 @@
 
 
     /*--------------footer-------------------------*/
-    .footer100 {
-        padding-bottom: 20px;
-    }
+    
+
     .container_footer {
         flex-direction: row;
         justify-content: space-between;
