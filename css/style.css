@@ -4,9 +4,10 @@
 
 body {
     margin:0;
+    font-family: "raleway", sans-serif;
 }
 
-.contenu_page {
+.contenu_page { 
     max-width: 1519px;
     margin: auto;
     display:flex;
@@ -20,26 +21,23 @@ em {
     font-weight: bold;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
 h1 {
-    font-family: "raleway", sans-serif;
     margin-bottom: 2px;
     font-weight: 700;
 }
 
 h2 {
     font-size: 1.3em;
-    font-family: "raleway", sans-serif;
     font-weight: 700;
 }
 
 h3 {
     font-size: 1.1em;
-    font-family: "raleway", sans-serif;
     font-weight: 700;
 }
 
@@ -59,7 +57,7 @@ header {
     align-items: flex-end;
 }
 
-.main-logo img {
+.main-logo img { /* Logo Reservia */
     height: 45px;
 }
 
@@ -91,7 +89,6 @@ header {
 
 .nav-big-screen li:hover {
     border-top: #0065FC 2px solid;
-    
 }
 
 .nav-big-screen li:hover a {
@@ -99,8 +96,7 @@ header {
 }
 
 
-.nav-big-screen_subscribe {
-    font-family: "raleway", sans-serif;
+.nav-big-screen_subscribe { /* lien s'inscrire apparait + en gras */
     font-weight: 700;
 }
 
@@ -112,14 +108,11 @@ header {
 /*--------------------.top-of-page-----------------*/
 
 .top-of-page {
-    font-family: "raleway", sans-serif;
     width: 95%;
     margin:auto;
     font-size: 0.9em;
     margin-bottom:30px;
 }
-
-
 
 .top-of-page_1 p {
     margin-top: 4px;
@@ -127,13 +120,14 @@ header {
 }
 
 /*----Champ de recherche---*/
+
 .search-form {
     display:flex;
     flex-direction: row;
-    height:40px;
+    height: 40px;
 }
 
-.icon_location {
+.icon_location { /*Boite à gauche de la barre de recherche*/
     margin-right:0;
     width: 40px;
     height: 40px;
@@ -208,9 +202,6 @@ header {
     padding: 0;
 }
 
-
-
-
 .container_filters input {
     background-color: white;
     height: 40px;
@@ -245,7 +236,6 @@ header {
 }
  
 .ico_filters i {
-    
     margin: auto;
     /*filtre pour rendre l'icone de la bonne couleur*/
     filter: invert(24%) sepia(40%) saturate(6775%) hue-rotate(211deg) brightness(102%) contrast(102%);
@@ -326,8 +316,6 @@ header {
     margin: auto;
     display: flex;
     justify-content: space-between; 
-    font-family: "raleway", sans-serif;
-
 }
 
 .middle-of-page a {
@@ -341,10 +329,8 @@ article {
     display: flex;
     width:65%;
     height: 100%;
-    
     flex-direction: column;
     flex-wrap: wrap;
-    
     border-radius: 15px;
     background-color: #f2f2f2;
     font-weight: bold;
@@ -356,6 +342,7 @@ article {
     width: 90%;
     margin:auto;
 }
+
 /*----------disposition des cards----------*/
 
 .article_container {
@@ -453,7 +440,6 @@ article a {
     margin-top: 20px;
     width: 90%;
     margin: auto;
-
 }
 
 .article a:hover {
@@ -484,10 +470,8 @@ article a {
 aside {
     display: flex;
     width: 33%;
-    
     flex-direction: column;
     background-color: #f2f2f2;
-    
     border-radius: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -553,7 +537,6 @@ aside {
     margin: auto;
     flex-direction: column;
     justify-content: space-between;   
-    font-family: "raleway",sans-serif;
     margin-top: 40px;
 }
 
@@ -572,13 +555,11 @@ aside {
     justify-content: space-between;
     align-content: space-between;
     height: 490px;
-    
 }
 
 .card_3 {
     display:flex;
-    flex-direction: column;
-   
+    flex-direction: column;   
     border-radius: 15px;
     background-color:white;
     box-shadow: 3px 3px 5px #e0dfdf ;
@@ -638,13 +619,10 @@ aside {
 
 /*--------------------------------------Footer--------------------------*/
 
-footer {
+footer {  /*Permet de garder la bande grise du footer sur grands écrans */
     background-color: #f2f2f2;
     margin-top: 40px;
-    font-family: "raleway",sans-serif;
-    
     width: 100%;
-    
 }
 
 .footer100 {
@@ -659,8 +637,7 @@ footer {
     margin: auto;
     display:flex;
     flex-direction: row;
-    justify-content:flex-start;
-    
+    justify-content:flex-start;  
 }
 
 footer a {
@@ -689,10 +666,6 @@ footer li {
 
 
 /*----------------------A ne pas afficher ------------------------*/
-.header_subscribe {
-display: none;
-}
-
-.nav-mobile {
+.header_subscribe, .nav-mobile {
     display: none;
 }
