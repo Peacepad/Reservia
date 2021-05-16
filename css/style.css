@@ -7,7 +7,7 @@ body {
     font-family: "raleway", sans-serif;
 }
 
-.contenu_page { 
+.contenu-page { 
     max-width: 1519px;
     margin: auto;
     display:flex;
@@ -96,11 +96,11 @@ header {
 }
 
 
-.nav-big-screen_subscribe { /* lien s'inscrire apparait + en gras */
+.nav-big-screen__subscribe { /* lien s'inscrire apparait + en gras */
     font-weight: 700;
 }
 
-.nav-big-screen_subscribe {
+.nav-big-screen__subscribe {
     color:#0065FC;
 }
 
@@ -114,7 +114,7 @@ header {
     margin-bottom:30px;
 }
 
-.top-of-page_1 p {
+.top-of-page__1 p {
     margin-top: 4px;
     font-weight: 300;
 }
@@ -127,7 +127,7 @@ header {
     height: 40px;
 }
 
-.icon_location { /*Boite à gauche de la barre de recherche*/
+.search-form__icon { /*Boite à gauche de la barre de recherche*/
     margin-right:0;
     width: 40px;
     height: 40px;
@@ -139,13 +139,13 @@ header {
     position: relative;
 }
 
-.icon_location i {
+.search-form__icon i {
     position: absolute;
     bottom: 13px;
     left:15px;
 }
 
-.search_bar {
+.search-form__bar {
     height: 40px ;
     width: 220px;
     border: #f2f2f2 1px solid;
@@ -157,7 +157,7 @@ header {
     font-size: 1em;
 }
 
-.search_button {
+.search-form__button {
     border: none;
     background-color: #0065FC;
     color: white;
@@ -169,32 +169,32 @@ header {
     width: 95px;
 }
 
-.search_bar:focus { /*empêche la bordure lorsqu'on écrit dans le champ de recherche */
+.search-form__bar:focus { /*empêche la bordure lorsqu'on écrit dans le champ de recherche */
     outline: none;
 }
 
-#search_button_2 {
+#search-form__button2 {
     display: none;
 }
 
 
 /*----Les filtres---*/
 
-.top-of-page_3 {
+.top-of-page__3 {
     display: flex;
     flex-direction: row;
     font-weight: 700; 
     margin-top: 15px; 
 }
 
-.top-of-page_3--title {
+.top-of-page__3__title {
     display:flex;
     align-items: center;
     margin-right: 40px;
     font-size: 1.1em;
 }
 
-.top-of-page_3 ul {
+.top-of-page__3 ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -202,7 +202,7 @@ header {
     padding: 0;
 }
 
-.container_filters input {
+.filters input {
     background-color: white;
     height: 40px;
     border: #d9d9d9 solid 3px;
@@ -215,17 +215,17 @@ header {
     -webkit-appearance: none;
 }
 
-.container_filters input:active { /*quand on clique sur le bouton */
+.filters input:active { /*quand on clique sur le bouton */
     border: #0065FC solid 2px;
     background-color: #DEEBFF;
 }
 
 /*bouton de filtre*/
-.button_filters {
+.filters__button {
     position: relative;
 }
  
-.ico_filters {
+.filters__ico {
     background-color: #DEEBFF;
     height: 40px;
     width: 40px;
@@ -235,7 +235,7 @@ header {
     display:flex;
 }
  
-.ico_filters i {
+.filters__ico i {
     margin: auto;
     /*filtre pour rendre l'icone de la bonne couleur*/
     filter: invert(24%) sepia(40%) saturate(6775%) hue-rotate(211deg) brightness(102%) contrast(102%);
@@ -243,48 +243,42 @@ header {
 
 /* boutons avec hover*/
 
-.button_filters_1:hover .ico_filters_1 {
+.filters__button--1:hover .filters__ico--1 {
     background-color: #0065FC;
 }   
 
-.button_filters_1:hover .ico_filters_1 i {
+.filters__button--1:hover .filters__ico--1 i {
     filter: invert(100%) sepia(40%) saturate(3842%) hue-rotate(177deg) brightness(104%) contrast(102%);
 }
 
-.button_filters_2:hover .ico_filters_2 {
+.filters__button--2:hover .filters__ico--2 {
     background-color: #0065FC;
 }   
 
-.button_filters_2:hover .ico_filters_2 i {
+.filters__button--2:hover .filters__ico--2 i {
     filter: invert(100%) sepia(40%) saturate(3842%) hue-rotate(177deg) brightness(104%) contrast(102%);
 }
 
-.button_filters_3:hover .ico_filters_3 {
+.filters__button--3:hover .filters__ico--3 {
     background-color: #0065FC;
 }   
 
-.button_filters_3:hover .ico_filters_3 i {
+.filters__button--3:hover .filters__ico--3 i {
     filter: invert(100%) sepia(40%) saturate(3842%) hue-rotate(177deg) brightness(104%) contrast(102%);
 }
 
-.button_filters_4:hover .ico_filters_4 {
+.filters__button--4:hover .filters__ico--4 {
     background-color: #0065FC;
 }   
 
-.button_filters_4:hover .ico_filters_4 i {
+.filters__button--4:hover .filters__ico--4 i {
     filter: invert(100%) sepia(40%) saturate(3842%) hue-rotate(177deg) brightness(104%) contrast(102%);
 }
 
-/*Effet quand on clique sur le bouton*/
 
-.top-of-page_4 input:active {
-    border: #0065FC solid 3px;
-    background-color: #c4c2c2;
-}
+/*----------.top-of-page__4-------------*/
 
-/*----------.top-of-page_4-------------*/
-
-#ico_info {
+#ico-info {
     display: block;
     border-radius: 100%;
     border: solid 1px #c4c2c2;
@@ -296,12 +290,12 @@ header {
     margin-right:10px;
 }
 
-#ico_info i {
+#ico-info i {
     font-size:1em;
     filter: invert(24%) sepia(91%) saturate(3771%) hue-rotate(211deg) brightness(102%) contrast(106%);   
 }
 
-.top-of-page_4 {
+.top-of-page__4 {
     font-size: 1em;
     font-weight: 400;
     line-height: 1.5em;
@@ -338,14 +332,14 @@ article {
     padding-bottom: 20px;
 }
 
-#article_title {
+#article__heading {
     width: 90%;
     margin:auto;
 }
 
 /*----------disposition des cards----------*/
 
-.article_container {
+.article__container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -371,7 +365,7 @@ article {
     box-shadow: 3px 3px 5px #0065FC;
 }
 
-.contenu_card {
+.card__content {
     margin-left: 10px;
 }
 
@@ -382,7 +376,7 @@ article {
     text-overflow: ellipsis;
 }
 
-.contenu_card p {
+.card__content p {
     margin-top: 2px;
     font-size: 0.9em;
     margin-bottom: 5px;
@@ -391,7 +385,7 @@ article {
 }
 
 /*redimension des images*/
-.image_card img {
+.card__image img {
     width: 16.4vw;
     height: 114px;
     border-top-left-radius: 15px;
@@ -436,13 +430,13 @@ article a {
     text-decoration: none;
 }
 
-.article_more {
+.article-more {
     margin-top: 20px;
     width: 90%;
     margin: auto;
 }
 
-.article a:hover {
+.article-more a:hover {
     text-decoration: underline;
 }
 
@@ -460,7 +454,7 @@ article a {
     float: right;
 }
 
-.aside_title {
+.aside__heading {
     width: 85%;
     margin: auto;
     margin-top: 0;
@@ -479,7 +473,7 @@ aside {
 
 
 
-.aside_container {
+.aside__container {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
@@ -489,7 +483,7 @@ aside {
     margin-top: 0;
 }
 
-.card_2 {
+.card2 {
     padding-top: 5px;
     padding-bottom: 2px;
     padding-left: 5px;
@@ -501,15 +495,15 @@ aside {
     box-shadow: 3px 3px 5px #e0dfdf ;
 }
 
-.card_2:hover {
+.card2:hover {
     box-shadow: 3px 3px 5px #c4c2c2;
 }
 
-.card_2:active {
+.card2:active {
     box-shadow: 3px 3px 5px #0065FC;
 }
 
-.image_card_2 img {
+.card2__image img {
     height: 130px;
     width: 10vw;
     border-top-left-radius: 15px;
@@ -518,11 +512,11 @@ aside {
     object-fit: cover;
 }
 
-.image_card_2 {
+.card2__image {
     margin-right: 15px;
 }
 
-.contenu_card_2 h3, .contenu_card_2 p {
+.card2__content h3, .card2__content p {
     color: black
 }
 
@@ -546,7 +540,7 @@ aside {
 
 
 
-.bottom-of-page_container {
+.bottom-of-page__container {
     display:flex;
     max-height: 493px;
     width: 100%;
@@ -557,7 +551,7 @@ aside {
     height: 490px;
 }
 
-.card_3 {
+.card3 {
     display:flex;
     flex-direction: column;   
     border-radius: 15px;
@@ -566,15 +560,15 @@ aside {
 }
 
 
-.card_3:hover {
+.card3:hover {
     box-shadow: 3px 3px 5px #c4c2c2;
 }
 
-.card_3:active {
+.card3:active {
     box-shadow: 3px 3px 5px #0065FC;
 }
 
-.image_card_3 img {
+.card3__image img {
     height: 430px;
     width: 21vw;
     object-fit: cover;
@@ -583,11 +577,11 @@ aside {
     max-width:350px;
 }
 
-.contenu_card_3 h3 {
+.card3__content h3 {
     padding-left: 15px;
 }
 
-.contenu_card_3 {
+.card3__content {
     color: black;
     width: 21vw;
     max-width:350px;
@@ -596,7 +590,7 @@ aside {
 
 
 /*taille moyenne*/
-.m-image_card_3 img {
+.card3__image--m img {
     height: 200px;
     width: 21vw;
     object-fit: cover;
@@ -607,7 +601,7 @@ aside {
 
 /*petite taile*/
 
-.s-image_card_3 img {
+.card3__image--s img {
     height: 125px;
     width: 21vw;
     object-fit: cover;
@@ -632,7 +626,7 @@ footer {  /*Permet de garder la bande grise du footer sur grands écrans */
     padding-bottom: 20px;
 }
 
-.container_footer {
+.footer__container {
     width:95%;
     margin: auto;
     display:flex;
@@ -655,7 +649,7 @@ footer ul {
 }
 
 
-.list_footer
+.footer__list
 {
     margin-right: 300px;
 }
@@ -666,6 +660,6 @@ footer li {
 
 
 /*----------------------A ne pas afficher ------------------------*/
-.header_subscribe, .nav-mobile {
+.header__subscribe, .nav-mobile {
     display: none;
 }
