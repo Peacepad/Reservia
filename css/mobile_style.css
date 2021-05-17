@@ -161,7 +161,7 @@
         margin: auto; 
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
 
@@ -324,8 +324,6 @@
     }
 
 
-
-
     /*--------------footer-------------------------*/
     
 
@@ -401,7 +399,7 @@
     }
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 576px) {
 
     .aside__container {
         flex-direction: column;
